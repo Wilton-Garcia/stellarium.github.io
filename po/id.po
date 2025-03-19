@@ -9,18 +9,19 @@
 # handbookEOF <fachri.ikh1213@gmail.com>, 2018
 # 5f57130115e117c78bbaa63114c9207e_a0ea046 <6729bb08ae4109b5ffb31b862acb51e6_681814>, 2018
 # Andika Triwidada <andika@gmail.com>, 2021
-# ArdWar, 2023
+# Anahdraw Naidra, 2023
 # Muslih <muslihzarth@gmail.com>, 2023
 # Hariyadi Putraga <hariyadiputraga@gmail.com>, 2023
+# Adhiansyah Ancha <ampradanaf@outlook.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: stellarium-website 1.0\n"
 "Report-Msgid-Bugs-To: stellarium@googlegroups.com\n"
-"POT-Creation-Date: 2023-08-31 13:38+0700\n"
+"POT-Creation-Date: 2023-12-28 22:19+0700\n"
 "PO-Revision-Date: 2017-11-29 10:47+0000\n"
-"Last-Translator: Hariyadi Putraga <hariyadiputraga@gmail.com>, 2023\n"
+"Last-Translator: Adhiansyah Ancha <ampradanaf@outlook.com>, 2024\n"
 "Language-Team: Indonesian (https://app.transifex.com/stellarium/teams/80998/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,30 +38,22 @@ msgstr "versi terbaru adalah"
 msgid "source"
 msgstr "sumber"
 
-#: _includes/header.html:20
-msgid "32 bit"
-msgstr "32 bit"
-
-#: _includes/header.html:23
-msgid "64 bit"
-msgstr "64 bit"
-
 #: _includes/home.html:2
 msgid ""
 "Stellarium is a free open source planetarium for your computer. It shows a "
 "realistic sky in 3D, just like what you see with the naked eye, binoculars "
 "or a telescope."
 msgstr ""
-"Stellarium adalah planetarium sumber terbuka yang bebas untuk komputer Anda."
-" Perangkat lunak ini menunjukkan langit secara realistis dalam 3D, seperti "
-"apa yang Anda lihat dengan mata telanjang, teropong, atau teleskop."
+"Stellarium adalah aplikasi planetarium bebas dan sumber terbuka untuk "
+"komputermu. Stellarium dapat menunjukkan langit yang nyata dalam 3D, seperti"
+" apa yang kamu lihat dengan mata telanjang, teropong, atau teleskop."
 
 #: _includes/home.html:9 _includes/home.html:12 _layouts/screenshots.html:12
 msgid ""
 "A shooting star flashes past the Jupiter. You can select different "
 "intensities in the View window."
 msgstr ""
-"Sebuah komet bersinar melewati Jupiter. Anda dapat memilih intensitas yang "
+"Sebuah komet bersinar melewati Jupiter. Kamu dapat memilih intensitas yang "
 "berbeda pada jendela View."
 
 #: _includes/home.html:13 _includes/home.html:22 _includes/home.html:30
@@ -87,557 +80,16 @@ msgstr "Tarian planet-planet diatas markas ESO, dekat Munich."
 #: _includes/home.html:35 _includes/home.html:38 _layouts/screenshots.html:11
 msgid "Full sky view of the constellations, their boundaries, the Milky Way."
 msgstr ""
-"Tampilan langit secara penuh dari konstelasi-konstelasi, batas-batasnya dan "
+"Tampilan langit secara penuh dari rasi-rasi bintang, batas-batasnya, dan "
 "Galaksi Bima Sakti."
 
 #: _includes/home.html:44 _includes/home.html:47 _layouts/screenshots.html:13
 msgid "Constellation art turned on."
-msgstr "Seni konstelasi diaktifkan."
+msgstr "Seni rasi bintang dinyalakan."
 
 #: _includes/home.html:53
 msgid "Click on the picture to the left for details."
 msgstr "Klik gambar di sebelah kiri untuk rincian."
-
-#: _layouts/default.html:11
-msgid "Other languages:"
-msgstr "Bahasa lain:"
-
-#: _layouts/docs.html:7
-msgid ""
-"Here you can find API documentation for various series of Stellarium. "
-"<em>head</em> refers to the latest version from development (although this "
-"may lag behind a little as the documentation is only uploaded every so "
-"often)."
-msgstr ""
-"Disini kamu dapat temukan dokumentasi API untuk berbagai seri dari "
-"Stellarium. <em>mengepalai</em> mengacu kepada versi terakhir dari "
-"pengembangan (meskipun ini mungkin tertinggal sedikit sebagai dokumentasi "
-"hanya unggah setiap begitu sering)"
-
-#: _layouts/docs.html:14 _layouts/scripts.html:15
-msgid "api documentation"
-msgstr "dokumentasi api"
-
-#: _layouts/docs.html:23
-msgid "plugins api documentation"
-msgstr "dokumentasi api plug-in"
-
-#: _layouts/docs.html:31
-msgid "changes between packages"
-msgstr "perubahan antara paket"
-
-#: _layouts/index.html:9
-msgid "features"
-msgstr "fitur"
-
-#: _layouts/index.html:11
-msgid "sky"
-msgstr "langit"
-
-#: _layouts/index.html:13
-msgid "default catalogue of over 600,000 stars"
-msgstr "katalog default dengan lebih dari 600.000 bintang"
-
-#: _layouts/index.html:14
-msgid "extra catalogues with more than 177 million stars"
-msgstr "katalog ekstra dengan lebih dari 177 juta bintang"
-
-#: _layouts/index.html:15
-msgid "default catalogue of over 80,000 deep-sky objects"
-msgstr "katalog default dengan lebih dari 80.000 objek langit jauh"
-
-#: _layouts/index.html:16
-msgid "extra catalogue with more than 1 million deep-sky objects"
-msgstr "katalog ekstra dengan lebih dari 1 juta objek langit jauh"
-
-#: _layouts/index.html:17
-msgid "asterisms and illustrations of the constellations"
-msgstr "asterisma dan ilustrasi konstelasi-konstelasi"
-
-#: _layouts/index.html:18
-msgid "constellations for 40+ different cultures"
-msgstr "konstelasi untuk 40+ budaya yang berbeda"
-
-#: _layouts/index.html:19
-msgid "calendars of 35+ different cultures"
-msgstr "Kalender dari 35+ kebudayaan berbeda"
-
-#: _layouts/index.html:20
-msgid "images of nebulae (full Messier catalogue)"
-msgstr "gambar-gambar nebula (katalog Messier lengkap)"
-
-#: _layouts/index.html:21
-msgid "realistic Milky Way"
-msgstr "Bima Sakti yang realistis"
-
-#: _layouts/index.html:22
-msgid "very realistic atmosphere, sunrise and sunset"
-msgstr ""
-"tampilan atmosfer, Matahari terbit dan Matahari terbenam yang realistis"
-
-#: _layouts/index.html:23
-msgid "the planets and their satellites"
-msgstr "planet-planet dan satelit-satelitnya"
-
-#: _layouts/index.html:24
-msgid "all-sky surveys (DSS, HiPS)"
-msgstr "survey langit menyeluruh (DSS, HiPS)"
-
-#: _layouts/index.html:27
-msgid "interface"
-msgstr "antarmuka"
-
-#: _layouts/index.html:29
-msgid "a powerful zoom"
-msgstr "zoom yang bertenaga"
-
-#: _layouts/index.html:30
-msgid "time control"
-msgstr "pengendalian waktu"
-
-#: _layouts/index.html:31
-msgid "multilingual interface"
-msgstr "antarmuka dalam berbagai bahasa"
-
-#: _layouts/index.html:32
-msgid "scripting interface"
-msgstr ""
-
-#: _layouts/index.html:33
-msgid "fisheye projection for planetarium domes"
-msgstr "proyeksi mata-ikan untuk kubah planetarium"
-
-#: _layouts/index.html:34
-msgid "spheric mirror projection for your own low-cost dome"
-msgstr "proyeksi cermin sferis untuk kubah ekonomis anda"
-
-#: _layouts/index.html:35
-msgid "graphical interface and extensive keyboard control"
-msgstr ""
-
-#: _layouts/index.html:36
-msgid "HTTP interface (web-based control, remote control API)"
-msgstr ""
-
-#: _layouts/index.html:37
-msgid "telescope control"
-msgstr "kontrol teleskop"
-
-#: _layouts/index.html:40
-msgid "visualisation"
-msgstr "visualisasi"
-
-#: _layouts/index.html:42
-msgid "several coordinate grids"
-msgstr "beberapa kisi koordinat"
-
-#: _layouts/index.html:43
-msgid "precession circles"
-msgstr "lingkaran presesi"
-
-#: _layouts/index.html:44
-msgid "star twinkling"
-msgstr "kelipan bintang"
-
-#: _layouts/index.html:45
-msgid "shooting stars"
-msgstr "meteor"
-
-#: _layouts/index.html:46
-msgid "tails of comets"
-msgstr "ekor komet"
-
-#: _layouts/index.html:47
-msgid "eclipse simulation"
-msgstr "simulasi gerhana"
-
-#: _layouts/index.html:48
-msgid "supernovae and novae simulation"
-msgstr "simulasi supernova dan nova"
-
-#: _layouts/index.html:49
-msgid "exoplanet locations"
-msgstr "lokasi eksoplanet"
-
-#: _layouts/index.html:50
-msgid "ocular view simulation"
-msgstr ""
-
-#: _layouts/index.html:51 _layouts/index.html:147
-#: _layouts/scenery3d-collection.html:15
-msgid "3D sceneries"
-msgstr "pemandangan 3D"
-
-#: _layouts/index.html:52
-msgid "skinnable landscapes with spheric panorama projection"
-msgstr "Lanskap yang dapat diganti dengan proyeksi panorama cembung"
-
-#: _layouts/index.html:55
-msgid "customizability"
-msgstr "dapat dikustomisasi"
-
-#: _layouts/index.html:57
-msgid ""
-"plugin system adding artifical satellites, ocular simulation, telescope "
-"control and more"
-msgstr ""
-"sistem plugin yang menambahkan satelit buatan, simulasi okular, konfigurasi "
-"teleskop, dan lebih banyak lagi"
-
-#: _layouts/index.html:58
-msgid "ability to add new solar system objects from online resources..."
-msgstr "kemampuan untuk menambahkan objek tata surya dari sumber daring..."
-
-#: _layouts/index.html:59
-msgid ""
-"add your own deep sky objects, landscapes, constellation images, scripts..."
-msgstr "tambahkan objek angkasa anda, lansekap, gambar konstelasi, skrip..."
-
-#: _layouts/index.html:62
-msgid "presentations"
-msgstr "presentasi"
-
-#: _layouts/index.html:64
-msgid ""
-"G. Zotti gave a <a href='https://www.youtube.com/watch?v=H9WXLDzbFYU' "
-"target='_blank'>presentation about Virtual Archaeoastronomy with Stellarium "
-"(YouTube)</a> for the <a href='https://scaas.org'>Society for Cultural "
-"Astronomy in the American Southwest (SCAAS)</a> on February 25th, 2023"
-msgstr ""
-
-#: _layouts/index.html:65
-msgid ""
-"A. Wolf gave a <a href='https://www.youtube.com/watch?v=mx7waXJ3v_Q&t=4724s'"
-" target='_blank'>presentation about Stellarium 1.0 (YouTube)</a> at the <a "
-"href='https://sibastro.ru/report/uindex?year=2022'>Siberian Astronomical "
-"Forum SibAstro 2022</a> on September 25th, 2022"
-msgstr ""
-
-#: _layouts/index.html:66
-msgid ""
-"A. Wolf gave a <a href='https://www.youtube.com/watch?v=wlmTv28USvY' "
-"target='_blank'>presentation about Stellarium &mdash; key changes in the "
-"last 5 years (YouTube)</a> at the <a "
-"href='https://sibastro.ru/report/uindex?year=2021'>Siberian Astronomical "
-"Forum SibAstro 2021</a> on September 25th, 2021"
-msgstr ""
-
-#: _layouts/index.html:67
-msgid ""
-"G. Zotti gave a <a href='https://www.youtube.com/watch?v=FNdLMYwBgA4' "
-"target='_blank'>presentation about Stellarium (YouTube)</a> for the <a "
-"href='https://nadc.china-vo.org/article/20210105092323'>China-VO (Virtual "
-"Observatory of the Chinese Academy of Sciences)</a> on February 1st, 2021"
-msgstr ""
-
-#: _layouts/index.html:68
-msgid ""
-"G. Zotti gave an <a href='https://www.youtube.com/watch?v=uJBu_7qOSqQ' "
-"target='_blank'>invited talk (YouTube)</a> at the <a "
-"href='http://sion.frm.utn.edu.ar/iaus367/index.php/georg-zotti/'>IAU "
-"Symposium 367</a> on December 9th, 2020"
-msgstr ""
-
-#: _layouts/index.html:69
-msgid ""
-"G. Zotti gave a <a href='https://www.youtube.com/watch?v=7QdENQLx8FE' "
-"target='_blank'>talk about creating 3D sceneries (YouTube)</a> at the <a "
-"href='https://dougsarchaeology.wordpress.com/2017/10/02/visualising-"
-"skyscapes-material-forms-of-cultural-engagement-with-the-heavens/'>TAG2016 "
-"Skyscapes session</a> on December 20th, 2016"
-msgstr ""
-
-#: _layouts/index.html:74
-msgid "news"
-msgstr "berita"
-
-#: _layouts/index.html:85
-msgid "system requirements"
-msgstr "syarat sistem"
-
-#: _layouts/index.html:87
-msgid "minimal"
-msgstr "minimal"
-
-#: _layouts/index.html:89
-msgid "Linux/Unix; Windows 7 and above; macOS 10.15 and above"
-msgstr "Linux/Unix; Windows 7 dan setelahnya; macOS 10.15 dan setelahnya"
-
-#: _layouts/index.html:90
-msgid ""
-"3D graphics card which supports OpenGL 2.1 and GLSL 1.3 or OpenGL ES 2.0"
-msgstr ""
-
-#: _layouts/index.html:91
-msgid "512 MiB RAM"
-msgstr "RAM 512 MiB"
-
-#: _layouts/index.html:92
-msgid "600 MiB on disk"
-msgstr "600 MiB pada disk"
-
-#: _layouts/index.html:93 _layouts/index.html:104
-msgid "Keyboard"
-msgstr "Papan Ketik"
-
-#: _layouts/index.html:94 _layouts/index.html:105
-msgid "Mouse, Touchpad or similar pointing device"
-msgstr "Tetikus, Alas Sentuh atau alat penunjuk serupa"
-
-#: _layouts/index.html:97
-msgid "recommended"
-msgstr "direkomendasikan"
-
-#: _layouts/index.html:99
-msgid "64-bit operating system"
-msgstr "SIstem Operasi 64-bit"
-
-#: _layouts/index.html:100
-msgid "Linux/Unix; Windows 10 and above; macOS 11.0 and above"
-msgstr ""
-
-#: _layouts/index.html:101
-msgid "3D graphics card which supports OpenGL 3.3 and above"
-msgstr "kartu grafis 3D yang mendukung OpenGL 3.3 dan di atasnya"
-
-#: _layouts/index.html:102
-msgid "1 GiB RAM or more"
-msgstr "RAM 1 GiB atau lebih"
-
-#: _layouts/index.html:103
-msgid "1.5 GiB on disk"
-msgstr "1,5 GiB pada disk"
-
-#: _layouts/index.html:106
-msgid "Moderately dark environment (deep shadow or indoors)"
-msgstr ""
-
-#: _layouts/index.html:109
-msgid "developers"
-msgstr "pengembang"
-
-#: _layouts/index.html:111
-msgid "Project coordinator:"
-msgstr "Koordinator proyek:"
-
-#: _layouts/index.html:112
-msgid "Graphic designer:"
-msgstr "Desainer grafis:"
-
-#: _layouts/index.html:113
-msgid "Developers:"
-msgstr ""
-
-#: _layouts/index.html:114
-msgid "Sky cultures researcher:"
-msgstr "Peneliti budaya langit:"
-
-#: _layouts/index.html:115
-msgid "Collaborators:"
-msgstr ""
-
-#: _layouts/index.html:116
-msgid "and everyone else in the community"
-msgstr "dan semua orang di dalam komunitas"
-
-#: _layouts/index.html:119
-msgid "financial support"
-msgstr "dukungan keuangan"
-
-#: _layouts/index.html:121
-msgid ""
-"Many individuals and organizations are supporting the development of "
-"Stellarium by donations, and the most generous financial contributors (with "
-"donations of $250 or more) are"
-msgstr ""
-"Banyak individu dan organisasi yang mendukung pengembangan Stellarium\n"
-"melalui donasi, dan para donatur yang paling dermawan (dengan\n"
-"donasi sebesar $250 atau lebih) adalah"
-
-#: _layouts/index.html:126
-msgid "silver sponsor"
-msgstr ""
-
-#: _layouts/index.html:131
-msgid "social media"
-msgstr "media sosial"
-
-#: _layouts/index.html:138
-msgid "collaborate"
-msgstr "kolaborasi"
-
-#: _layouts/index.html:139
-msgid ""
-"You can learn more about Stellarium, get support and help the project from "
-"these links"
-msgstr ""
-"Anda dapat mempelajari Stellarium lebih banyak, dapatkan dukungan dan bantu "
-"projek dari tautan-tautan ini"
-
-#: _layouts/index.html:141
-msgid "discussions"
-msgstr "diskusi"
-
-#: _layouts/index.html:142
-msgid "mailing list"
-msgstr "forum diskusi"
-
-#: _layouts/index.html:143
-msgid "wiki"
-msgstr "wiki"
-
-#: _layouts/index.html:144
-msgid "FAQ"
-msgstr "Tanya Jawab"
-
-#: _layouts/index.html:145 _layouts/scripts.html:20
-msgid "scripts"
-msgstr "skrip"
-
-#: _layouts/index.html:146 _layouts/landscapes-africa.html:23
-#: _layouts/landscapes-africa.html:28 _layouts/landscapes-asia.html:23
-#: _layouts/landscapes-asia.html:28 _layouts/landscapes-australasia.html:23
-#: _layouts/landscapes-australasia.html:28 _layouts/landscapes-europe.html:23
-#: _layouts/landscapes-europe.html:28
-#: _layouts/landscapes-interplanetary.html:23
-#: _layouts/landscapes-interplanetary.html:28
-#: _layouts/landscapes-north-america.html:23
-#: _layouts/landscapes-north-america.html:28 _layouts/landscapes-polar.html:23
-#: _layouts/landscapes-polar.html:28 _layouts/landscapes-south-america.html:23
-#: _layouts/landscapes-south-america.html:28
-#: _layouts/landscapes-special.html:23 _layouts/landscapes-special.html:28
-msgid "landscapes"
-msgstr "lansekap"
-
-#: _layouts/index.html:148 _layouts/skycultures-list.html:15
-#: _layouts/skycultures-list.html:20
-msgid "sky cultures"
-msgstr "budaya langit"
-
-#: _layouts/index.html:149
-msgid "developers documentation"
-msgstr "dokumentasi pengembang"
-
-#: _layouts/index.html:150
-msgid "scripting"
-msgstr "skripting"
-
-#: _layouts/index.html:151
-msgid "translations"
-msgstr "penerjemahan"
-
-#: _layouts/index.html:152
-msgid "get support, report bugs, request new features"
-msgstr "memperoleh dukungan, melaporkan bug, meminta fitur-fitur baru "
-
-#: _layouts/index.html:153
-msgid "all releases"
-msgstr "seluruh rilisan"
-
-#: _layouts/index.html:154 _layouts/index.html:155
-msgid "user guide"
-msgstr "panduan pengguna"
-
-#: _layouts/index.html:156
-msgid "weekly snapshots"
-msgstr "snapshot mingguan"
-
-#: _layouts/index.html:157
-msgid "ppa for ubuntu linux"
-msgstr ""
-
-#: _layouts/index.html:160
-msgid "acknowledgment"
-msgstr "pengakuan"
-
-#: _layouts/index.html:161
-msgid ""
-"If the Stellarium planetarium was helpful for your research work, please "
-"cite the following paper in your acknowledgment:"
-msgstr ""
-
-#: _layouts/index.html:162
-msgid "This research has made use of the Stellarium planetarium"
-msgstr "Penelitian ini telah menggunakan Stellarium planetarium"
-
-#: _layouts/index.html:166
-msgid ""
-"Or you may <a href='/files/stellarium.bib'>download the BibTeX file of the "
-"paper</a> to create another citation format."
-msgstr ""
-"Atau Anda dapat <a href='/files/stellarium.bib'>mengunduh berkas BibTeX dari"
-" makalah</a> untuk membuat format sitasi lain."
-
-#: _layouts/index.html:167
-msgid ""
-"Please note that the software has several releases since these fundamentals "
-"were published:"
-msgstr ""
-
-#: _layouts/index.html:174
-msgid "git"
-msgstr "git"
-
-#: _layouts/index.html:175
-msgid ""
-"The latest development snapshot of Stellarium is kept on github. If you want"
-" to compile development versions of Stellarium, this is the place to get the"
-" source code."
-msgstr ""
-"Pengembanga terakhir gambaran dari Stellarium disimpan dalam Github. Jika "
-"kamu ingin mengkompilasi versi pengembangan dari Stellarium, ini adalah "
-"tempat untuk mendapatkan kode sumbernya "
-
-#: _layouts/index.html:177
-msgid "browse GitHub"
-msgstr "jelajahi GitHub"
-
-#: _layouts/index.html:180
-msgid "books"
-msgstr ""
-
-#: _layouts/index.html:181
-msgid ""
-"Documentation and description of the sky cultures, state March 2022, plus a "
-"lot of additional research"
-msgstr ""
-
-#: _layouts/index.html:187
-msgid "irc"
-msgstr "irc"
-
-#: _layouts/index.html:188
-msgid ""
-"Real time chat about Stellarium can be had in the <a "
-"href='irc://irc.freenode.org/stellarium'>#stellarium</a> IRC channel on the "
-"<a href='http://freenode.net'>freenode</a> IRC network. Use your favorite "
-"IRC client to connect to <a "
-"href='irc://irc.freenode.org/stellarium'>chat.freenode.net</a> or try the <a"
-" href='http://webchat.freenode.net/?channels=stellarium&uio=MTE9MjQ255'>web-"
-"based interface</a>."
-msgstr ""
-"chat secara langsung tentang stellarium dapat dilakukan di saluran IRC <a "
-"href='irc://irc.freenode.org/stellarium'>#stellarium</a>  pada jaringan IRC "
-"dengan <a href='http://freenode.net'>freenode</a>. gunakan klien IRC faforit"
-" anda untuk berhubungan ke <a "
-"href='irc://irc.freenode.org/stellarium'>chat.freenode.net</a> atau coba "
-"yang <a "
-"href='http://webchat.freenode.net/?channels=stellarium&uio=MTE9MjQ255'>tampilan"
-" berbasis web</a>."
-
-#: _layouts/index.html:191
-msgid "supporters and friends"
-msgstr "pendukung dan teman-teman"
-
-#: _layouts/index.html:193
-msgid ""
-"Stellarium is produced by the efforts of the developer team, with the help "
-"and support of the <a href='/%lang%/sponsors.html'>following people and "
-"organisations</a>"
-msgstr ""
-"Stellarium dihasilkan melalui usaha tim pengembang, dengan bantuan dan "
-"dukungan dari <a href='/%lang%/sponsors.html'>orang dan organisasi "
-"terkait</a>"
 
 #: _layouts/landscapes-africa.html:9 _layouts/landscapes-asia.html:9
 #: _layouts/landscapes-australasia.html:9 _layouts/landscapes-europe.html:9
@@ -699,7 +151,7 @@ msgstr "Asia"
 #: _layouts/landscapes-south-america.html:15
 #: _layouts/landscapes-special.html:15 _layouts/landscapes.html:15
 msgid "Australasia"
-msgstr "Australia"
+msgstr "Australasia"
 
 #: _layouts/landscapes-africa.html:16 _layouts/landscapes-asia.html:16
 #: _layouts/landscapes-australasia.html:16 _layouts/landscapes-europe.html:16
@@ -750,561 +202,45 @@ msgstr "daerah kutub"
 msgid "special"
 msgstr "khusus"
 
-#: _layouts/landscapes.html:25
-msgid "how to install landscapes"
-msgstr "cara memasang lanskap"
-
-#: _layouts/landscapes.html:26
-msgid ""
-"After you have downloaded the .zip file for a landscape from this page, you "
-"need to install it in Stellarium."
-msgstr ""
-"Setelah anda mengunduh file .zip untuk sebuah Bentangan dari halaman ini, "
-"anda harus memasangnya di dalam Stellarium."
-
-#: _layouts/landscapes.html:27
-msgid "automatic"
-msgstr "otomatis"
-
-#: _layouts/landscapes.html:28
-msgid ""
-"If you have Stellarium 0.10.6 or later version, you can use the 'Add/remove "
-"landscapes' feature to install landscapes automatically:"
-msgstr ""
-"Jika anda memiliki Stellarium 0.10.6 atau versi terbarunya, anda dapat "
-"menggunakan fitur 'Tambah/lepas Bentangan' untuk memasang lanskap secara "
-"otomatis."
-
-#: _layouts/landscapes.html:30
-msgid ""
-"Open the 'Sky and viewing options' window by clicking on the appropriate "
-"button in the left button bar (or press the F4 key)."
-msgstr ""
-"Buka jendela 'Langit dan pilihan untuk melihat' dengan melakukan klik pada "
-"tombol yang sesuai pada bar kiri bawah (atau tekan huruf F4)."
-
-#: _layouts/landscapes.html:31
-msgid ""
-"The 'Add/remove landscapes' button is at the bottom of the 'Landscape' tab."
-msgstr ""
-"Tombol 'Tambah/lepas Bentangan' berada pada bagian bawah tab 'Bentangan'"
-
-#: _layouts/landscapes.html:32
-msgid ""
-"When you press it, the 'Add/remove landscapes' window will appear. It allows"
-" you to install .zip files containing landscapes. It also lists the user-"
-"installed landscapes and allows you to remove them."
-msgstr ""
-"ketika anda menekannya, jendela 'Tambah/Lepas Bentangan' akan muncul. hal "
-"ini memperbolehkan anda untuk memasang file .zip yang mengandung Bentangan. "
-"Disini juga memberikan daftar lanskap yang telah dipasang penguna dan "
-"memperbolehkan anda untuk melepas mereka."
-
-#: _layouts/landscapes.html:34
-msgid ""
-"Note that while this makes installing landscapes easier, it may also cause "
-"you to overlook what else is included in the ZIP archive."
-msgstr ""
-"Perhatikan bahwa hal ini membuat pemasangan Bentangan menjadi lebih mudah, "
-"hal ini juga dapat membuat anda melewatkan hal yang termasuk ke dalam arsip "
-"ZIP."
-
-#: _layouts/landscapes.html:35
-msgid ""
-"Landscape packages created without this feature in mind may contain other "
-"files, such as alternative textures in different sizes."
-msgstr ""
-"Paket Bentangan yang dibuat tanpa fitur memikirkan ini mungkin saja "
-"mengandung file lain, seperti tekstur alternatif dengan ukuran yang berbeda."
-
-#: _layouts/landscapes.html:38 _layouts/skycultures.html:19
-msgid "manual"
-msgstr "manual"
-
-#: _layouts/landscapes.html:39
-msgid ""
-"If you are using an earlier version of Stellarium, you can follow this "
-"procedure to install a landscape package:"
-msgstr ""
-"Jika anda menggunakan versi Stellarium yang lebih lama, anda dapat mengikuti"
-" prosedur ini untuk memasang sebuah paket Bentangan:"
-
-#: _layouts/landscapes.html:41 _layouts/skycultures.html:22
-msgid ""
-"Browse to your User Data Directory, which varies according to your operating"
-" system."
-msgstr ""
-"Telusuri Direktori Data Pengguna anda, yang bervariasi berdasarkan sistem "
-"operasi anda."
-
-#: _layouts/landscapes.html:42
-msgid ""
-"Create a sub-directory called <em>landscapes</em> in your user directory (if"
-" it doesn't exist)."
-msgstr ""
-"Membuat sub-direktori yang disebut <em>Landscape</em> pada direktori anda "
-"(jika tidak tersedia)"
-
-#: _layouts/landscapes.html:43
-msgid ""
-"Unzip the landscape .zip file in the <em>landscapes</em> directory (if it's "
-"done right, a sub-directory should be created for each landscape)."
-msgstr ""
-"Keluarkan isi file landscape.zip di dalam direktori <em>Landscape</em> (jika"
-" dilakukan dengan benar, sebuah sub-direktori akan terbuat untuk setiap "
-"Bentangan)"
-
-#: _layouts/landscapes.html:45 _layouts/scenery3d.html:25
-#: _layouts/skycultures.html:26
-msgid "contributions"
-msgstr "kontribusi"
-
-#: _layouts/landscapes.html:46
-msgid ""
-"Please feel free to contribute your own custom landscapes here. Make "
-"thumbnails 200x114 pixels to fit with the rest of the page. Please include a"
-" location section in your landscape.ini file with the longitude, latitude, "
-"altitude and planet for the location of the landscape (see one of the pre-"
-"existing landscapes for an example)."
-msgstr ""
-"Silahkan untuk mengkontribusikan Bentangan Buatan anda. Buat thumbnails "
-"berukuran 200x114 pixel untuk mencocokkannya ke sisa halaman. Mohon untuk "
-"memasukkan sebuah bagian lokasi pada file landscape.ini milik anda dengan "
-"Bujur, Lintang, Ketinggian dan planet untuk lokaso Bentangan (Lihat salah "
-"satu dari bentangan yang telah disediakan sebagai contoh)."
-
-#: _layouts/landscapes.html:47
-msgid ""
-"To find out more about how to create a landscape, see the Stellarium User "
-"Guide, and examine existing landscapes. If you are having problems, posting "
-"to the forums is a good way to get some advice."
-msgstr ""
-"Untuk mengetahui lebih banyak tentang bagaimana untuk membuat sebuah "
-"Bentangan, lihat pada Petunjuk Pengguna Stellarium, dan periksa Bentangan - "
-"bentangan yanga telah tersedia. jika anda memiliki masalah, silahkan posting"
-" ke forum untuk mendapatkan cara dan beberapa anjuran."
-
-#: _layouts/landscapes.html:48 _layouts/scenery3d.html:28
-#: _layouts/skycultures.html:29
-msgid "important note on image dimensions"
-msgstr "Catatan penting pada dimensi gambar"
-
-#: _layouts/landscapes.html:49 _layouts/skycultures.html:30
-msgid ""
-"IMPORTANT: Make sure all textures have dimensions which are integer powers "
-"of 2, i.e. 256, 512, 1024, 2048, 4096, 8192, 16384, ... e.g. 4096 by 1024, "
-"2048 by 2048 and so on."
-msgstr ""
-"PENTING: Pastikan semua tekstur memiliki dimensi yang merupakan bilangan "
-"bulat berpangkat dua, yaitu 256, 512, 1024, 2048, 4096, 8192, 16384, "
-"... misalnya 4096 x 1024, 2048 x 2048 dan seterusnya."
-
-#: _layouts/landscapes.html:50 _layouts/skycultures.html:31
-msgid ""
-"This is a limitation of OpenGL. Some video hardware will work OK with images"
-" with different image dimensions, but many will not display properly, suffer"
-" vastly reduced frame rates, and even crash the computer."
-msgstr ""
-"Ini merupakan batasan dari OpenGL. Beberapa perangkat keras video akan "
-"bekerja baik dengan gambar dengan dimensi gambar yang berbeda, namun banyak "
-"pula yang akan tidak ditampilkan dengan benar, sangat terbebani dan "
-"mengurangi kecepatan frame, dan bahkan dapat membuat komputer crash."
-
-#: _layouts/landscapes.html:51
-msgid ""
-"Please make sure all contributed landscapes conform to these requirements, "
-"or your link may be removed."
-msgstr ""
-"Mohon pastikan semua Bentangan yang dikontribusikan dapat memenuhi "
-"persyaratan ini, atau link anda akan dihapuskan,"
-
-#: _layouts/landscapes.html:52 _layouts/skycultures.html:33
-msgid ""
-"Be aware that many people's video hardware cannot handle very large "
-"textures. This is hardware and driver dependent. A typical maximum image "
-"size is 2048x2048 or 4096x4096."
-msgstr ""
-"Berhati-hatilah karena banyak perangkat keras video orang tidak dapat "
-"menangani tekstur yang sangat besar. perangkat keras ini dan drivernya "
-"sangat bergantungan. sebuah ukuran gambar maksimum biasa adalah 2048x2048 "
-"atau 4096x4096."
-
-#: _layouts/landscapes.html:53 _layouts/scenery3d.html:32
-#: _layouts/skycultures.html:34
-msgid "package contents"
-msgstr "isi paket"
-
-#: _layouts/landscapes.html:54
-msgid ""
-"Please package your landscape in a .zip file with all files inside a "
-"directory in the .zip file. This should be unique to your landscape, and it "
-"would be nice if it was all lower-case with no spaces."
-msgstr ""
-"Masukkan paket pemandangan anda dalam sebuah file .zip dengan semua file "
-"dalam sebuah folder dalam file .zip. ini akan menjadi khusus untuk "
-"pemandangan anda, dan ini akan menjadi lebih baik jika semuanya dalam huruf "
-"kecil dengan tanpa spasi."
-
-#: _layouts/landscapes.html:55
-msgid ""
-"You should also include a readme.txt file which describes the landscape and "
-"specifies any usage restrictions or licensing terms for the images used in "
-"the landscape."
-msgstr ""
-"anda juga dapat memasukkan file readme.txt yang menjelaskan Bentangan dan "
-"menjelaskan setiap larangan penggunaan atau ketentuan lisensi dari gambar "
-"yang digunakan dalam Bentangan."
-
-#: _layouts/landscapes.html:56 _layouts/scenery3d.html:37
-#: _layouts/skycultures.html:37
-msgid "licensing"
-msgstr "pelisensian"
-
-#: _layouts/landscapes.html:57
-msgid ""
-"Before you distribute images as part of a Stellarium landscape, please "
-"ensure you are legally entitled to - you must be the copyright holder for "
-"the images, or be able to distribute them for use with Stellarium under the "
-"terms of some agreement with the copyright holder (e.g. Creative Commons "
-"licensed images found on the web)."
-msgstr ""
-"Sebelum anda menyebarkan gambar sebagai bagian dari Bentangan Stellarium, "
-"perhatikan anda telah mendapatkannya secara legal - anda harus yang menjadi "
-"pemegang hak cipta untuk gambar, atau dapat disebarkan untuk penggunaan "
-"dengan stellarium dibawah ketentuan dengan beberapa persetujuan dengan "
-"pemegang hak cipta (misal Lisensi kreatif gambar yang sering dijumpai di "
-"web)."
-
-#: _layouts/landscapes.html:58
-msgid ""
-"It is important to explicitly state what use may be made of images for your "
-"landscape. This should be done in the readme.txt file inside the .zip file."
-msgstr ""
-"Hal ini  penting untuk mempertegas dalam hal penggunaan yang dapat dibuat "
-"dari gambar untuk Bentangan anda. hal ini dilakukan di dalam file readme.txt"
-" di dalam fil .zip"
-
-#: _layouts/landscapes.html:59 _layouts/skycultures.html:40
-msgid ""
-"We recommend an open source license compatible with Stellarium itself (i.e. "
-"the GNU GPL), or one of the Creative Commons licenses."
-msgstr ""
-"Kami merekomendasikan sebuah lisensi sumber terbuka yang cocok dengan "
-"Stellarium itu sendiri (yaitu GNU GPL), atau salah satu dari lisensi kreatif"
-" yang biasa."
-
-#: _layouts/landscapes.html:60 _layouts/scenery3d.html:41
-#: _layouts/skycultures.html:41
-msgid "file encoding"
-msgstr "menyandi file"
-
-#: _layouts/landscapes.html:61
-msgid ""
-"The landscape.ini and readme.txt files should be UTF-8 encoded text or plain"
-" ASCII. It's probably a good idea to adopt the Windows line ending encoding,"
-" (i.e. CR LF). Both Windows and *nix style line ending encoding should work "
-"OK in Stellarium, but Windows users will have an ugly time reading the "
-"readme.txt if it uses *nix-style newlines."
-msgstr ""
-"file landscape.ini dan readme.txt dapat  menggunakan UTF-8 encoded text atau"
-" ASCII sederhana. hal ini mungkin menjadi sebuah ide yang baik untuk "
-"mengambil penyandian akhir garis Windows (yaitu CR LF). Kedua jendela dan "
-"penyandian garis akhir bergaya *nix dapat bekerja baik dalam Stellarium, "
-"tetapi pengguna Windows akan mengalami waktu buruk dalam membaca file "
-"readme.txt jika menggunakan garis baru *nix-style."
-
-#: _layouts/landscapes.html:62 _layouts/scenery3d.html:43
-#: _layouts/skycultures.html:43
-msgid "need hosting?"
-msgstr "membutuhkan hosting?"
-
-#: _layouts/landscapes.html:63
-msgid ""
-"If you have a landscape you would like to share but have no web-space to put"
-" it, email to any Stellarium developers and we'll put it on our site."
-msgstr ""
-"jika anda memiliki sebuah Bentangan anda mungkin akan mau untuk "
-"membagikannya namun tidak memiliki ruang web untuk meletakkannya, kirimkan "
-"email ke pengembang Stellarium yang manapun dan kami akan meletakkannya pada"
-" situs kami."
+#: _layouts/index.html:146 _layouts/landscapes-africa.html:23
+#: _layouts/landscapes-africa.html:28 _layouts/landscapes-asia.html:23
+#: _layouts/landscapes-asia.html:28 _layouts/landscapes-australasia.html:23
+#: _layouts/landscapes-australasia.html:28 _layouts/landscapes-europe.html:23
+#: _layouts/landscapes-europe.html:28
+#: _layouts/landscapes-interplanetary.html:23
+#: _layouts/landscapes-interplanetary.html:28
+#: _layouts/landscapes-north-america.html:23
+#: _layouts/landscapes-north-america.html:28 _layouts/landscapes-polar.html:23
+#: _layouts/landscapes-polar.html:28 _layouts/landscapes-south-america.html:23
+#: _layouts/landscapes-south-america.html:28
+#: _layouts/landscapes-special.html:23 _layouts/landscapes-special.html:28
+msgid "landscapes"
+msgstr "lanskap"
 
 #: _layouts/scenery3d-collection.html:9 _layouts/scenery3d.html:9
 msgid "user contributed 3D sceneries"
-msgstr "Pemandangan 3D yang dikontribusikan pengguna"
+msgstr "pemandangan 3D kontribusi pengguna"
 
 #: _layouts/scenery3d-collection.html:10 _layouts/scenery3d.html:10
 msgid ""
 "We are collecting user-contributed 3D sceneries of astronomical interest "
 "(not necessarily your garden shack)."
 msgstr ""
+"Kami mengumpulkan pemandangan 3D kontribusi pengguna yang menarik dalam "
+"astronomi (belum tentu menjadi koleksi yang sama denganmu)."
 
 #: _layouts/scenery3d-collection.html:12 _layouts/scenery3d.html:12
 msgid "Collection"
 msgstr "Koleksi"
 
+#: _layouts/index.html:51 _layouts/index.html:147
+#: _layouts/scenery3d-collection.html:15
+msgid "3D sceneries"
+msgstr "pemandangan 3D"
+
 #: _layouts/scenery3d-collection.html:20
 msgid "3D Sceneries"
 msgstr "Pemandangan 3D"
-
-#: _layouts/scenery3d.html:17
-msgid "how to install 3D sceneries"
-msgstr ""
-
-#: _layouts/scenery3d.html:18
-msgid ""
-"After you have downloaded the .zip file for a 3D scenery, you need to "
-"install it in Stellarium."
-msgstr ""
-
-#: _layouts/scenery3d.html:20
-msgid ""
-"Browse to your User Data Directory, which varies according to your operating"
-" system. (See User Guide)"
-msgstr ""
-
-#: _layouts/scenery3d.html:21
-msgid ""
-"Create a sub-directory called <em>scenery3d</em> in your User Data Directory"
-" (if it doesn't exist)."
-msgstr ""
-
-#: _layouts/scenery3d.html:22
-msgid ""
-"Unzip the scenery .zip file in the <em>scenery3d</em> directory (if it's "
-"done right, a sub-directory should be created for each scenery)."
-msgstr ""
-
-#: _layouts/scenery3d.html:23
-msgid ""
-"If there is also a landscapes subdirectory in the ZIP file, move its "
-"contents to the <em>landscapes</em> subdirectory."
-msgstr ""
-
-#: _layouts/scenery3d.html:26
-msgid ""
-"Please feel free to contribute your own custom 3D sceneries here. Make "
-"thumbnails 200x114 pixels to fit with the rest of the page. Please include a"
-" location section in your scenery3d.ini file with the longitude, latitude, "
-"altitude and planet for the location of the scenery (see one of the pre-"
-"existing sceneries for an example)."
-msgstr ""
-
-#: _layouts/scenery3d.html:27
-msgid ""
-"To find out more about how to create a 3D scenery, see the Stellarium User "
-"Guide, and examine existing examples. If you are having problems, posting to"
-" the forums is a good way to get some advice."
-msgstr ""
-
-#: _layouts/scenery3d.html:29
-msgid ""
-"IMPORTANT: Try to still use textures with dimensions of integer powers of 2,"
-" i.e. 256, 512, 1024, 2048, 4096, 8192, 16384, ... e.g. 4096 by 1024, 2048 "
-"by 2048 and so on."
-msgstr ""
-
-#: _layouts/scenery3d.html:30
-msgid ""
-"This is a limitation of older OpenGL hardware. Most video hardware will "
-"nowadays work OK with images with different image dimensions, but some will "
-"not display properly, suffer vastly reduced frame rates, and even crash the "
-"computer."
-msgstr ""
-
-#: _layouts/scenery3d.html:31
-msgid ""
-"Be aware that many people's video hardware cannot handle very large "
-"textures. This is hardware and driver dependent. Maximum compatibility is "
-"achieved with image size not exceeding 2048x2048."
-msgstr ""
-
-#: _layouts/scenery3d.html:33
-msgid ""
-"Please package your 3D scenery in a .zip file with all files inside a "
-"subdirectory in the .zip file. This should be unique to your scenery, and "
-"must be all lower-case with no spaces."
-msgstr ""
-
-#: _layouts/scenery3d.html:34
-msgid ""
-"If you enclose your scenery with a landscape, provide this in a "
-"landscapes/name subdirectory in the ZIP file."
-msgstr ""
-
-#: _layouts/scenery3d.html:35
-msgid ""
-"The file <em>description.en.utf8</em> (and any translated versions which you"
-" may want to provide yourself) describes the scenery and what is special "
-"about it. Please make this a self-contained explanation that does not only "
-"point to external links."
-msgstr ""
-
-#: _layouts/scenery3d.html:36
-msgid ""
-"You should also include a readme.txt file which briefly describes the "
-"landscape and specifies any usage restrictions or licensing terms for the "
-"images used in the 3D scenery."
-msgstr ""
-
-#: _layouts/scenery3d.html:38
-msgid ""
-"Before you distribute images as part of a Stellarium 3D scenery or "
-"landscape, please ensure you are legally entitled to - you must be the "
-"copyright holder for the images, or be able to distribute them for use with "
-"Stellarium under the terms of some agreement with the copyright holder (e.g."
-" Creative Commons licensed images found on the web)."
-msgstr ""
-
-#: _layouts/scenery3d.html:39
-msgid ""
-"It is important to explicitly state what use may be made of images for your "
-"3D scenery. This should be done in the readme.txt file inside the .zip file."
-msgstr ""
-
-#: _layouts/scenery3d.html:40
-msgid ""
-"We recommend an open source license compatible with Stellarium itself (i.e.,"
-" the GNU GPL), or one of the Creative Commons licenses."
-msgstr ""
-
-#: _layouts/scenery3d.html:42
-msgid ""
-"The scenery3d.ini and readme.txt files should be UTF-8 encoded text or plain"
-" ASCII. It's probably a good idea to adopt the Windows line ending encoding,"
-" (i.e. CR LF). Both Windows and *nix style line ending encoding should work "
-"OK in Stellarium, but Windows users will have an ugly time reading the "
-"readme.txt if it uses *nix-style newlines."
-msgstr ""
-
-#: _layouts/scenery3d.html:44
-msgid ""
-"If you have a 3D scenery of culture astronomical interest you would like to "
-"share but have no web-space to put it, email to any Stellarium developers "
-"and we'll put it on our site."
-msgstr ""
-
-#: _layouts/screenshots.html:8
-msgid ""
-"Since version 0.10 Stellarium has new graphical user interface. The vertical"
-" bar links to windows, the horizontal bar shows toggle buttons, just like it"
-" used to."
-msgstr ""
-"Sejak versi 0.10 Stellarium memiliki tampilah yang baru. Garis vertikal "
-"untuk menunjukkan jendela menu, garis horizontal menunjukkan tombol-tombol "
-"fungsi, seperti sebelumnya."
-
-#: _layouts/screenshots.html:9
-msgid ""
-"The location window.  The first thing you have to do is set your observing "
-"position and save it. The landscape is a panorama from the ESO facilities in"
-" Garching, near Munich, Germany. ESO is the European Organisation for "
-"Astronomical Research in the Southern Hemisphere."
-msgstr ""
-"Lokasi jendela. Hal pertama yang harus kamu lakukan adalah mengatur posisi "
-"mengamati-mu dan menyimpannya. Lanskapnya adalah panorama dari fasilitas ESO"
-" di Garching, dekat Munich, Jerman. ESO adalah organisasi Eropa untuk riset "
-"astronomi di belahan selatan."
-
-#: _layouts/screenshots.html:10
-msgid ""
-"The sun is down, the stars are visible.  Since version 0.10.0 Stellarium has"
-" extensive star catalogs.  600,000 are included by default, but you can even"
-" download extra catalogues to see up to 210 million stars. This work was "
-"done by our team member Johannes."
-msgstr ""
-"Matahari telah tenggelam, bintang-bintang kini tampak. Sejak versi 0.10.0 "
-"Stellarium memiliki katalog bintang yang luas. 600.000 bintang secara "
-"default, tetapi anda dapat mengunduh katalog ekstra untuk melihat sampai "
-"dengan 210 juta bintang. Pekerjaan ini dilakukan oleh anggota tim kita "
-"Johannes."
-
-#: _layouts/screenshots.html:14
-msgid ""
-"The Starlore tab in the View window.  Choose between different cultures and "
-"see how they looked at the stars."
-msgstr ""
-"Tab Starlore pada jendela View. Pilih antara kultur yang berbeda dan kuhat "
-"bagaimana kultur tersebut melihat bintang-bintang."
-
-#: _layouts/screenshots.html:15
-msgid ""
-"Selecting a planet and pressing Ctrl+G flies you there.  Here, we see Mars "
-"from a rover&#39;s viewpoint."
-msgstr ""
-"Memilih sebuah planet dan tekan Ctrl+G kamu terbang. Disana, kita melihat "
-"Mars dari sudut pandang rover&#39;"
-
-#: _layouts/screenshots.html:18
-msgid ""
-"See how different amounts of light pollution make the universe invisible."
-msgstr ""
-"Lihat bagaimana perbedaan jumlah polusi cahaya membuat alam semesta tidak "
-"terlihat."
-
-#: _layouts/screenshots.html:19
-msgid ""
-"Search for a planet, nebula, constellation or a specific star. Press enter, "
-"and Stellarium centers on the object."
-msgstr ""
-"Cari sebuah planet, nebula, konstelasi atau suatu bintang spesifik. Tekan "
-"enter dan Stellarium akan membawa sudut pandang anda kepada objek tersebut."
-
-#: _layouts/screenshots.html:24
-msgid "Stellarium screenshot gallery"
-msgstr "Galeri cuplikan layar Stellarium"
-
-#: _layouts/screenshots.html:25
-msgid "Please select an image."
-msgstr "Silakan pilih sebuah gambar."
-
-#: _layouts/scripts.html:9
-msgid "introduction"
-msgstr "Perkenalan"
-
-#: _layouts/scripts.html:10
-msgid ""
-"As of version 0.10.1, Stellarium uses the QtScript engine. The previously "
-"used StratoScript is no longer available. Even at version 0.16, Stellarium's"
-" scripting capabilities and the API change as development continues. Qt5.8 "
-"has declared the QtScript module deprecated, so the API may change again a "
-"bit. It will remain available in later Qt5 versions, though."
-msgstr ""
-"Sebagaimana pada versi 0.10.1, stellarium menggunakan mesin QTScript. dimana"
-" sebelumnya menggunakan StratoScript yang tidak lagi tersedia. Bahkan pada "
-"versi 0.16, kemampuan skrip Stellarium dan API berubang sebagaimana "
-"pengembangan berlanjut. Qt5.8 telah menyatakan Modul QtScript  telah "
-"ketinggalan zaman, sehingga API mungkin akan berganti lagi walaupun sedikit."
-" Namun ia akan tetap tersedia pada versi Qt5 terakhir."
-
-#: _layouts/scripts.html:12
-msgid "installing scripts"
-msgstr "memasang skrip"
-
-#: _layouts/scripts.html:13
-msgid ""
-"To install a script copy the script file (.ssc extension), and any texture "
-"files it uses to the scripts sub-directory of your User Data Directory. "
-"Instructions with many of these community-donated scripts may date back to "
-"older versions of Stellarium, and the instructions provided with the script "
-"may be out of date."
-msgstr ""
-"Untuk memasang sebuah kopi skrip dari file skrip (ekstensi .ssc), dan semua "
-"file tekstur yang digunakan untuk sub-direktori skrip mungkin berada pada "
-"versi yang lebih lama dari Stellarium, dan petunjuk yang disediakan dengan "
-"skrip bisa saja telah ketinggalan zaman,"
-
-#: _layouts/scripts.html:16
-msgid ""
-"After building Stellarium itself from the Git code, do 'make apidoc' (you "
-"need Doxygen installed). This will create a directory: "
-".../stellarium/builds/doc/html which contains the API documentation in HTML "
-"format or you follow this link <a href='/doc/head/'>Doxygen-API</a>"
-msgstr ""
-"setelah membangun Stellarium ini sendiri dari kode Git, lakukanlah "
-"'pembuatan apidoc' (anda membutuhkan Doxygen yang telah terpasang). hal ini "
-"akan membuatkan sebuah direktori: .../stellarium/builds/doc/html yang "
-"mengandung dokumentasi API pada format HTML atau anda dapat mengikuti link "
-"berikut ini <a href='/doc/head/'>Doxygen-API</a>"
 
 #: _layouts/skycultures-list.html:9 _layouts/skycultures.html:9
 msgid "user contributed sky cultures"
@@ -1322,107 +258,72 @@ msgstr ""
 msgid "list of sky cultures"
 msgstr "daftar budaya langit"
 
+#: _layouts/index.html:148 _layouts/skycultures-list.html:15
+#: _layouts/skycultures-list.html:20
+msgid "sky cultures"
+msgstr "budaya langit"
+
 #: _layouts/skycultures-list.html:21
 msgid "list"
 msgstr "daftar"
 
-#: _layouts/skycultures.html:17
-msgid "how to install sky cultures"
-msgstr "cara memasang budaya langit"
+#: _layouts/scripts.html:9
+msgid "introduction"
+msgstr "Perkenalan"
 
-#: _layouts/skycultures.html:18
+#: _layouts/scripts.html:10
 msgid ""
-"After you have downloaded the .zip file for a sky culture from this page, "
-"you need to install it in Stellarium."
+"As of version 0.10.1, Stellarium uses the QtScript engine. The previously "
+"used StratoScript is no longer available. Even at version 0.16, Stellarium's"
+" scripting capabilities and the API change as development continues. Qt5.8 "
+"has declared the QtScript module deprecated, so the API may change again a "
+"bit. It will remain available in later Qt5 versions, though."
 msgstr ""
-"Setelah anda mengunduh file .zip untuk sebuah budaya langit dari halaman "
-"ini, anda harus memasangnya di dalam Stellarium."
+"Mulai versi 0.10.1, Stellarium menggunakan mesin QtScript. Mesin yang "
+"digunakan sebelumnya, StratoScript tidak lagi tersedia. Bahkan pada versi "
+"0.16, kemampuan skrip Stellarium dan API berubah selagi pengembangan "
+"berlanjut. Qt5.8 telah menetapkan modul QtScript tidak digunakan lagi, "
+"sehingga API mungkin akan sedikit berganti lagi. Namun, QtScript akan tetap "
+"tersedia pada versi Qt5 seterusnya."
 
-#: _layouts/skycultures.html:20
-msgid "Please follow this procedure to install a sky culture package:"
-msgstr "Ikuti langkah berikut untuk memasang paket budaya langit"
+#: _layouts/scripts.html:12
+msgid "installing scripts"
+msgstr "memasang skrip"
 
-#: _layouts/skycultures.html:23
+#: _layouts/scripts.html:13
 msgid ""
-"Create a sub-directory called <em>skycultures</em> in your user directory "
-"(if it doesn't exist)."
+"To install a script copy the script file (.ssc extension), and any texture "
+"files it uses to the scripts sub-directory of your User Data Directory. "
+"Instructions with many of these community-donated scripts may date back to "
+"older versions of Stellarium, and the instructions provided with the script "
+"may be out of date."
 msgstr ""
-"Buat sebuah sub-direktori bernama <em>skyculture</em> di dalam direktori "
-"pengguna (jika belum ada)"
+"Untuk memasang sebuah skrip, salin berkas skrip (yang berekstensi .ssc), dan"
+" semua file tekstur yang digunakan ke subdirektori scripts dari direktori "
+"User Data kamu. Instruksi mungkin berada pada versi yang lebih lama dari "
+"Stellarium, dan petunjuk yang disediakan dengan skrip bisa saja telah "
+"ketinggalan zaman,"
 
-#: _layouts/skycultures.html:24
-msgid ""
-"Unzip the sky culture .zip file in the <em>skycultures</em> directory (if "
-"it's done right, a sub-directory should be created for each sky culture)."
-msgstr ""
-"Membuka file sky culture .zip di dalam direktori <em>skyculture</em> (Jika "
-"benar, sebuah sub-direktori akan dibuatkan untuk setiap sku culture)."
+#: _layouts/docs.html:14 _layouts/scripts.html:15
+msgid "api documentation"
+msgstr "dokumentasi api"
 
-#: _layouts/skycultures.html:27
+#: _layouts/scripts.html:16
 msgid ""
-"Please feel free to contribute your own custom sky culture here. Make "
-"thumbnails 300x170 pixels to fit with the rest of the page."
+"After building Stellarium itself from the Git code, do 'make apidoc' (you "
+"need Doxygen installed). This will create a directory: "
+".../stellarium/builds/doc/html which contains the API documentation in HTML "
+"format or you follow this link <a href='/doc/head/'>Doxygen-API</a>"
 msgstr ""
-"Silahkan berkontribusi terhadap sky culture kustom milik anda disini. "
-"Membuat thumbnails 300x170 pixel untuk memuat sisa halaman"
+"Setelah membangun Stellarium ini sendiri dari kode Git, jalankan perintah "
+"'make apidoc' (kamu memerlukan Doxygen yang telah terpasang). Perintah ini "
+"akan membuat direktori: .../stellarium/builds/doc/html yang berisi "
+"dokumentasi API dalam format HTML atau kamu dapat mengikuti pranala ini <a "
+"href='/doc/head/'>Doxygen-API</a>"
 
-#: _layouts/skycultures.html:28
-msgid ""
-"To find out more about how to create a sky culture, see the Stellarium User "
-"Guide, and examine existing sky cultures. If you are having problems, "
-"posting to the forums is a good way to get some advice."
-msgstr ""
-
-#: _layouts/skycultures.html:32
-msgid ""
-"Please make sure all contributed sky cultures conform to these requirements,"
-" or your link may be removed."
-msgstr ""
-
-#: _layouts/skycultures.html:35
-msgid ""
-"Please package your sky culture in a .zip file with all files inside a "
-"directory in the .zip file. This should be unique to your sky culture, and "
-"it would be nice if it was all lower-case with no spaces."
-msgstr ""
-
-#: _layouts/skycultures.html:36
-msgid ""
-"You should also include a description.en.utf8 file which describes the sky "
-"culture and specifies any usage restrictions or licensing terms for the "
-"images used in the sky culture."
-msgstr ""
-
-#: _layouts/skycultures.html:38
-msgid ""
-"Before you distribute images as part of a Stellarium sky culture, please "
-"ensure you are legally entitled to - you must be the copyright holder for "
-"the images, or be able to distribute them for use with Stellarium under the "
-"terms of some agreement with the copyright holder (e.g. Creative Commons "
-"licensed images found on the web)."
-msgstr ""
-
-#: _layouts/skycultures.html:39
-msgid ""
-"It is important to explicitly state what use may be made of images for your "
-"sky culture. This should be done in the description.en.utf8 file (and value "
-"for option 'license' in info.ini file) inside the .zip file."
-msgstr ""
-
-#: _layouts/skycultures.html:42
-msgid ""
-"The info.ini and description.en.utf8 files should be UTF-8 encoded text or "
-"plain ASCII. It's probably a good idea to adopt the Windows line ending "
-"encoding, (i.e. CR LF). Both Windows and *nix style line ending encoding "
-"should work OK in Stellarium, but Windows users will have an ugly time "
-"reading the description.en.utf8 if it uses *nix-style newlines."
-msgstr ""
-
-#: _layouts/skycultures.html:44
-msgid ""
-"If you have a sky culture you would like to share but have no web-space to "
-"put it, email to any Stellarium developers and we'll put it on our site."
-msgstr ""
+#: _layouts/index.html:145 _layouts/scripts.html:20
+msgid "scripts"
+msgstr "skrip"
 
 #: _layouts/sponsors.html:7
 msgid ""
@@ -1476,23 +377,23 @@ msgstr "Penerjemah panduan pengguna"
 
 #: _layouts/sponsors.html:28
 msgid "Landscape authors"
-msgstr "Pencipta lansekap"
+msgstr "Pembuat lanskap"
 
 #: _layouts/sponsors.html:29
 msgid "Wiki authors"
-msgstr "Pencipta wiki"
+msgstr "Penulis wiki"
 
 #: _layouts/sponsors.html:30
 msgid "Testers and bug reporters"
-msgstr "Pengujicoba dan pelapor kecacatan program"
+msgstr "Penguji dan pelapor kecacatan program"
 
 #: _layouts/sponsors.html:31
 msgid "Donators"
-msgstr "Donatur-donatur"
+msgstr "Para donatur"
 
 #: _layouts/sponsors.html:36
 msgid "former developers"
-msgstr "eks-pengembang"
+msgstr "mantan pengembang"
 
 #: _layouts/sponsors.html:37
 msgid ""
@@ -1529,3 +430,1231 @@ msgstr "integrasi berkelanjutan"
 #: _layouts/sponsors.html:54
 msgid "friends"
 msgstr "teman"
+
+#: _layouts/landscapes.html:25
+msgid "how to install landscapes"
+msgstr "cara memasang lanskap"
+
+#: _layouts/landscapes.html:26
+msgid ""
+"After you have downloaded the .zip file for a landscape from this page, you "
+"need to install it in Stellarium."
+msgstr ""
+"Setelah kamu mengunduh file .zip untuk sebuah lanskap dari halaman ini, kamu"
+" harus memasangnya di dalam Stellarium."
+
+#: _layouts/landscapes.html:27
+msgid "automatic"
+msgstr "otomatis"
+
+#: _layouts/landscapes.html:28
+msgid ""
+"If you have Stellarium 0.10.6 or later version, you can use the 'Add/remove "
+"landscapes' feature to install landscapes automatically:"
+msgstr ""
+"Jika kamu memiliki Stellarium 0.10.6 atau versi terbarunya, kamu dapat "
+"menggunakan fitur 'Tambah/lepas lanskap' untuk memasang lanskap secara "
+"otomatis."
+
+#: _layouts/landscapes.html:30
+msgid ""
+"Open the 'Sky and viewing options' window by clicking on the appropriate "
+"button in the left button bar (or press the F4 key)."
+msgstr ""
+"Buka jendela 'Langit dan pilihan untuk melihat' dengan melakukan klik pada "
+"tombol yang sesuai pada bar kiri bawah (atau tekan huruf F4)."
+
+#: _layouts/landscapes.html:31
+msgid ""
+"The 'Add/remove landscapes' button is at the bottom of the 'Landscape' tab."
+msgstr ""
+"Tombol 'Tambah/lepas Bentangan' berada pada bagian bawah tab 'Bentangan'"
+
+#: _layouts/landscapes.html:32
+msgid ""
+"When you press it, the 'Add/remove landscapes' window will appear. It allows"
+" you to install .zip files containing landscapes. It also lists the user-"
+"installed landscapes and allows you to remove them."
+msgstr ""
+"ketika kamu menekannya, jendela 'Tambah/Lepas lanskap' akan muncul. Ini "
+"memungkinkan kamu untuk memasang berkas .zip yang berisi lanskap. Di sini "
+"juga memberikan daftar lanskap yang telah dipasang penguna dan memungkinkan "
+"kamu untuk menghapusnya."
+
+#: _layouts/landscapes.html:34
+msgid ""
+"Note that while this makes installing landscapes easier, it may also cause "
+"you to overlook what else is included in the ZIP archive."
+msgstr ""
+"Perhatikan bahwa meski ini membuat pemasangan lanskap menjadi lebih mudah, "
+"hal ini juga dapat membuat kamu mungkin melewatkan hal yang termasuk ke "
+"dalam arsip ZIP."
+
+#: _layouts/landscapes.html:35
+msgid ""
+"Landscape packages created without this feature in mind may contain other "
+"files, such as alternative textures in different sizes."
+msgstr ""
+"Paket Bentangan yang dibuat tanpa fitur memikirkan ini mungkin saja "
+"mengandung file lain, seperti tekstur alternatif dengan ukuran yang berbeda."
+
+#: _layouts/landscapes.html:38 _layouts/skycultures.html:19
+msgid "manual"
+msgstr "manual"
+
+#: _layouts/landscapes.html:39
+msgid ""
+"If you are using an earlier version of Stellarium, you can follow this "
+"procedure to install a landscape package:"
+msgstr ""
+"Jika kamu menggunakan versi Stellarium yang lebih lama, kamu dapat mengikuti"
+" prosedur ini untuk memasang sebuah paket lanskap:"
+
+#: _layouts/landscapes.html:41 _layouts/skycultures.html:22
+msgid ""
+"Browse to your User Data Directory, which varies according to your operating"
+" system."
+msgstr ""
+"Telusuri direktori User Data kamu, yang lokasinya berbeda-beda tergantung "
+"sistem operasimu"
+
+#: _layouts/landscapes.html:42
+msgid ""
+"Create a sub-directory called <em>landscapes</em> in your user directory (if"
+" it doesn't exist)."
+msgstr ""
+"Membuat subdirektori yang disebut <em>landscapes</em> pada direktori kamu "
+"(jika tidak tersedia)"
+
+#: _layouts/landscapes.html:43
+msgid ""
+"Unzip the landscape .zip file in the <em>landscapes</em> directory (if it's "
+"done right, a sub-directory should be created for each landscape)."
+msgstr ""
+"Keluarkan isi file landscape.zip di dalam direktori <em>Landscape</em> (jika"
+" dilakukan dengan benar, sebuah subdirektori akan terbuat untuk setiap "
+"Bentangan)"
+
+#: _layouts/landscapes.html:45 _layouts/scenery3d.html:25
+#: _layouts/skycultures.html:26
+msgid "contributions"
+msgstr "kontribusi"
+
+#: _layouts/landscapes.html:46
+msgid ""
+"Please feel free to contribute your own custom landscapes here. Make "
+"thumbnails 200x114 pixels to fit with the rest of the page. Please include a"
+" location section in your landscape.ini file with the longitude, latitude, "
+"altitude and planet for the location of the landscape (see one of the pre-"
+"existing landscapes for an example)."
+msgstr ""
+"Silakan berkontribusi lanskap buatanmu sendiri di sini. Buat gambar kecil "
+"sebesar 200x114 piksel agar muat dengan sisa halamannya. Mohon juga masukkan"
+" bagian lokasi di dalam berkas landscape.ini dengan lintang, bujur, "
+"ketinggian, dan planet untuk lokasi lanskap (lihat lanskap yang sudah ada "
+"sebelumnya sebagai contoh)."
+
+#: _layouts/landscapes.html:47
+msgid ""
+"To find out more about how to create a landscape, see the Stellarium User "
+"Guide, and examine existing landscapes. If you are having problems, posting "
+"to the forums is a good way to get some advice."
+msgstr ""
+"Untuk mencari tahu lebih lanjut cara membuat lanskap, lihat Panduan Pengguna"
+" Stellarium, dan teliti lanskap yang sudah ada. Jika kamu mengalami masalah,"
+" menanyakan ke forum adalah cara yang bagus untuk mendapat masukan."
+
+#: _layouts/landscapes.html:48 _layouts/scenery3d.html:28
+#: _layouts/skycultures.html:29
+msgid "important note on image dimensions"
+msgstr "catatan penting pada dimensi gambar"
+
+#: _layouts/landscapes.html:49 _layouts/skycultures.html:30
+msgid ""
+"IMPORTANT: Make sure all textures have dimensions which are integer powers "
+"of 2, i.e. 256, 512, 1024, 2048, 4096, 8192, 16384, ... e.g. 4096 by 1024, "
+"2048 by 2048 and so on."
+msgstr ""
+"PENTING: Pastikan semua tekstur memiliki dimensi yang merupakan bilangan "
+"bulat berpangkat dua, yaitu 256, 512, 1024, 2048, 4096, 8192, 16384, "
+"... misalnya 4096 x 1024, 2048 x 2048 dan seterusnya."
+
+#: _layouts/landscapes.html:50 _layouts/skycultures.html:31
+msgid ""
+"This is a limitation of OpenGL. Some video hardware will work OK with images"
+" with different image dimensions, but many will not display properly, suffer"
+" vastly reduced frame rates, and even crash the computer."
+msgstr ""
+"Ini dikarenakan adanya keterbatasan pada OpenGL. Sebagian perangkat keras "
+"video saat ini akan bekerja baik dengan gambar yang berbeda dimensi, tetapi "
+"sebagian besar tidak akan bekerja dengan benar, mengalami penurunan "
+"kecepatan frame, dan bahkan gagal bekerja di komputer."
+
+#: _layouts/landscapes.html:51
+msgid ""
+"Please make sure all contributed landscapes conform to these requirements, "
+"or your link may be removed."
+msgstr ""
+"Mohon pastikan semua Bentangan yang dikontribusikan dapat memenuhi "
+"persyaratan ini, atau link anda akan dihapuskan,"
+
+#: _layouts/landscapes.html:52 _layouts/skycultures.html:33
+msgid ""
+"Be aware that many people's video hardware cannot handle very large "
+"textures. This is hardware and driver dependent. A typical maximum image "
+"size is 2048x2048 or 4096x4096."
+msgstr ""
+"Berhati-hatilah karena banyak perangkat keras video orang tidak dapat "
+"menangani tekstur yang sangat besar. perangkat keras ini dan drivernya "
+"sangat bergantungan. sebuah ukuran gambar maksimum biasa adalah 2048x2048 "
+"atau 4096x4096."
+
+#: _layouts/landscapes.html:53 _layouts/scenery3d.html:32
+#: _layouts/skycultures.html:34
+msgid "package contents"
+msgstr "isi paket"
+
+#: _layouts/landscapes.html:54
+msgid ""
+"Please package your landscape in a .zip file with all files inside a "
+"directory in the .zip file. This should be unique to your landscape, and it "
+"would be nice if it was all lower-case with no spaces."
+msgstr ""
+"Masukkan paket pemandangan anda dalam sebuah file .zip dengan semua file "
+"dalam sebuah folder dalam file .zip. ini akan menjadi khusus untuk "
+"pemandangan anda, dan ini akan menjadi lebih baik jika semuanya dalam huruf "
+"kecil dengan tanpa spasi."
+
+#: _layouts/landscapes.html:55
+msgid ""
+"You should also include a readme.txt file which describes the landscape and "
+"specifies any usage restrictions or licensing terms for the images used in "
+"the landscape."
+msgstr ""
+"Kamu juga harus menyertakan sebuah berkas readme.txt yang menjelaskan "
+"lanskapnya dan menentukan batasan penggunaan apapun atau ketentuan lisensi "
+"untuk gambar yang digunakan dalam lanskap."
+
+#: _layouts/landscapes.html:56 _layouts/scenery3d.html:37
+#: _layouts/skycultures.html:37
+msgid "licensing"
+msgstr "pelisensian"
+
+#: _layouts/landscapes.html:57
+msgid ""
+"Before you distribute images as part of a Stellarium landscape, please "
+"ensure you are legally entitled to - you must be the copyright holder for "
+"the images, or be able to distribute them for use with Stellarium under the "
+"terms of some agreement with the copyright holder (e.g. Creative Commons "
+"licensed images found on the web)."
+msgstr ""
+"Sebelum kamu menyebarluaskan gambar sebagai bagian dari lanskap Stellarium, "
+"mohon pastikan kamu berhak memilikinya - kamu harus menjadi pemegang hak "
+"cipta untuk gambarnya, atau dapat menyebarluaskannya dengan Stellarium di "
+"bawah ketentuan hak cipta dengan pemegang aslinya (seperti lisensi Creative "
+"Commons yang ditemukan di web)."
+
+#: _layouts/landscapes.html:58
+msgid ""
+"It is important to explicitly state what use may be made of images for your "
+"landscape. This should be done in the readme.txt file inside the .zip file."
+msgstr ""
+"Penting untuk menyatakan dengan jelas gambarnya digunakan untuk apa saja "
+"untuk lanskapnya. Ini dapatkan dilakukan di berkas readme.txt di dalam "
+"berkas .zip-nya."
+
+#: _layouts/landscapes.html:59 _layouts/skycultures.html:40
+msgid ""
+"We recommend an open source license compatible with Stellarium itself (i.e. "
+"the GNU GPL), or one of the Creative Commons licenses."
+msgstr ""
+"Kami merekomendasikan sebuah lisensi sumber terbuka yang cocok dengan "
+"Stellarium itu sendiri (yaitu GNU GPL), atau salah satu dari lisensi kreatif"
+" yang biasa."
+
+#: _layouts/landscapes.html:60 _layouts/scenery3d.html:41
+#: _layouts/skycultures.html:41
+msgid "file encoding"
+msgstr "pengkodean berkas"
+
+#: _layouts/landscapes.html:61
+msgid ""
+"The landscape.ini and readme.txt files should be UTF-8 encoded text or plain"
+" ASCII. It's probably a good idea to adopt the Windows line ending encoding,"
+" (i.e. CR LF). Both Windows and *nix style line ending encoding should work "
+"OK in Stellarium, but Windows users will have an ugly time reading the "
+"readme.txt if it uses *nix-style newlines."
+msgstr ""
+"Berkas landscape.ini dan readme.txt harus dikodekan dalam UTF-8 atau ASCII "
+"biasa. Akan menjadi ide bagus untuk menggunakan pengkodean akhir baris dari "
+"Windows (CR LF). Pengkodean akhir baris Windows dan pengkodean LF yang "
+"digunakan di sistem mirip Unix seharusnya bekerja dengan baik di Stellarium,"
+" tetapi pengguna Windows akan mengalami kesusahan membaca readme.txt jika "
+"menggunakan pengkodean LF."
+
+#: _layouts/landscapes.html:62 _layouts/scenery3d.html:43
+#: _layouts/skycultures.html:43
+msgid "need hosting?"
+msgstr "membutuhkan hosting?"
+
+#: _layouts/landscapes.html:63
+msgid ""
+"If you have a landscape you would like to share but have no web-space to put"
+" it, email to any Stellarium developers and we'll put it on our site."
+msgstr ""
+"Jika kamu memiliki sebuah lanskap yang ingin kamu bagikan tetapi tidak punya"
+" tempat di web untuk ditaruh, kirim surel ke pengembang Stellarium siapapun "
+"dan kami akan menaruhnya di situs kami."
+
+#: _layouts/index.html:9
+msgid "features"
+msgstr "fitur"
+
+#: _layouts/index.html:11
+msgid "sky"
+msgstr "langit"
+
+#: _layouts/index.html:13
+msgid "default catalogue of over 600,000 stars"
+msgstr "katalog default dengan lebih dari 600.000 bintang"
+
+#: _layouts/index.html:14
+msgid "extra catalogues with more than 177 million stars"
+msgstr "katalog ekstra dengan lebih dari 177 juta bintang"
+
+#: _layouts/index.html:15
+msgid "default catalogue of over 80,000 deep-sky objects"
+msgstr "katalog default dengan lebih dari 80.000 objek langit jauh"
+
+#: _layouts/index.html:16
+msgid "extra catalogue with more than 1 million deep-sky objects"
+msgstr "katalog ekstra dengan lebih dari 1 juta objek langit jauh"
+
+#: _layouts/index.html:17
+msgid "asterisms and illustrations of the constellations"
+msgstr "asterisma dan ilustrasi rasi-rasi bintang"
+
+#: _layouts/index.html:18
+msgid "constellations for 40+ different cultures"
+msgstr "rasi bintang untuk 40+ budaya yang berbeda"
+
+#: _layouts/index.html:19
+msgid "calendars of 35+ different cultures"
+msgstr "Kalender dari 35+ kebudayaan berbeda"
+
+#: _layouts/index.html:20
+msgid "images of nebulae (full Messier catalogue)"
+msgstr "gambar-gambar nebula (katalog Messier lengkap)"
+
+#: _layouts/index.html:21
+msgid "realistic Milky Way"
+msgstr "Bima Sakti yang realistis"
+
+#: _layouts/index.html:22
+msgid "very realistic atmosphere, sunrise and sunset"
+msgstr ""
+"tampilan atmosfer, Matahari terbit dan Matahari terbenam yang realistis"
+
+#: _layouts/index.html:23
+msgid "the planets and their satellites"
+msgstr "planet-planet dan satelit-satelitnya"
+
+#: _layouts/index.html:24
+msgid "all-sky surveys (DSS, HiPS)"
+msgstr "survey langit menyeluruh (DSS, HiPS)"
+
+#: _layouts/index.html:27
+msgid "interface"
+msgstr "antarmuka"
+
+#: _layouts/index.html:29
+msgid "a powerful zoom"
+msgstr "zoom yang bertenaga"
+
+#: _layouts/index.html:30
+msgid "time control"
+msgstr "pengendalian waktu"
+
+#: _layouts/index.html:31
+msgid "multilingual interface"
+msgstr "antarmuka dalam berbagai bahasa"
+
+#: _layouts/index.html:32
+msgid "scripting interface"
+msgstr "antarmuka skrip"
+
+#: _layouts/index.html:33
+msgid "fisheye projection for planetarium domes"
+msgstr "proyeksi mata-ikan untuk kubah planetarium"
+
+#: _layouts/index.html:34
+msgid "spheric mirror projection for your own low-cost dome"
+msgstr "proyeksi cermin sferis untuk kubah ekonomis kamu"
+
+#: _layouts/index.html:35
+msgid "graphical interface and extensive keyboard control"
+msgstr "antarmuka grafik dan kontrol kibor yang luas"
+
+#: _layouts/index.html:36
+msgid "HTTP interface (web-based control, remote control API)"
+msgstr "antarmuka HTTP (kontrol berbasis-web, API kontrol jarak jauh)"
+
+#: _layouts/index.html:37
+msgid "telescope control"
+msgstr "kontrol teleskop"
+
+#: _layouts/index.html:40
+msgid "visualisation"
+msgstr "visualisasi"
+
+#: _layouts/index.html:42
+msgid "several coordinate grids"
+msgstr "beberapa grid koordinat"
+
+#: _layouts/index.html:43
+msgid "precession circles"
+msgstr "lingkaran presesi"
+
+#: _layouts/index.html:44
+msgid "star twinkling"
+msgstr "kelipan bintang"
+
+#: _layouts/index.html:45
+msgid "shooting stars"
+msgstr "meteor"
+
+#: _layouts/index.html:46
+msgid "tails of comets"
+msgstr "ekor komet"
+
+#: _layouts/index.html:47
+msgid "eclipse simulation"
+msgstr "simulasi gerhana"
+
+#: _layouts/index.html:48
+msgid "supernovae and novae simulation"
+msgstr "simulasi supernova dan nova"
+
+#: _layouts/index.html:49
+msgid "exoplanet locations"
+msgstr "lokasi eksoplanet"
+
+#: _layouts/index.html:50
+msgid "ocular view simulation"
+msgstr "simulasi penglihatan okular"
+
+#: _layouts/index.html:52
+msgid "skinnable landscapes with spheric panorama projection"
+msgstr "Lanskap yang dapat diganti dengan proyeksi panorama cembung"
+
+#: _layouts/index.html:55
+msgid "customizability"
+msgstr "dapat dikustomisasi"
+
+#: _layouts/index.html:57
+msgid ""
+"plugin system adding artifical satellites, ocular simulation, telescope "
+"control and more"
+msgstr ""
+"sistem plugin yang menambahkan satelit buatan, simulasi okular, konfigurasi "
+"teleskop, dan lebih banyak lagi"
+
+#: _layouts/index.html:58
+msgid "ability to add new solar system objects from online resources..."
+msgstr "kemampuan untuk menambahkan objek tata surya dari sumber daring..."
+
+#: _layouts/index.html:59
+msgid ""
+"add your own deep sky objects, landscapes, constellation images, scripts..."
+msgstr ""
+"tambahkan objek langit dalam kamu, lanskap, gambar rasi bintang, skrip..."
+
+#: _layouts/index.html:62
+msgid "presentations"
+msgstr "presentasi"
+
+#: _layouts/index.html:64
+msgid ""
+"G. Zotti gave a <a href='https://www.youtube.com/watch?v=H9WXLDzbFYU' "
+"target='_blank'>presentation about Virtual Archaeoastronomy with Stellarium "
+"(YouTube)</a> for the <a href='https://scaas.org'>Society for Cultural "
+"Astronomy in the American Southwest (SCAAS)</a> on February 25th, 2023"
+msgstr ""
+"G. Zotti memberikan presentasi <a "
+"href='https://www.youtube.com/watch?v=H9WXLDzbFYU' target='_blank'>tentang "
+"arkeoastronomi virtual dengan Stellarium (YouTube)</a> untuk <a "
+"href='https://scaas.org'>Society for Cultural Astronomy in the American "
+"Southwest (SCAAS)</a> pada 25 Februari 2023"
+
+#: _layouts/index.html:65
+msgid ""
+"A. Wolf gave a <a href='https://www.youtube.com/watch?v=mx7waXJ3v_Q&t=4724s'"
+" target='_blank'>presentation about Stellarium 1.0 (YouTube)</a> at the <a "
+"href='https://sibastro.ru/report/uindex?year=2022'>Siberian Astronomical "
+"Forum SibAstro 2022</a> on September 25th, 2022"
+msgstr ""
+"A. Wolf memberikan <a "
+"href='https://www.youtube.com/watch?v=mx7waXJ3v_Q&t=4724s' "
+"target='_blank'>presentasi tentang Stellarium 1.0 (YouTube)</a> di<a "
+"href='https://sibastro.ru/report/uindex?year=2022'>Siberian Astronomical "
+"Forum SibAstro 2022</a> pada 25 September 2022"
+
+#: _layouts/index.html:66
+msgid ""
+"A. Wolf gave a <a href='https://www.youtube.com/watch?v=wlmTv28USvY' "
+"target='_blank'>presentation about Stellarium &mdash; key changes in the "
+"last 5 years (YouTube)</a> at the <a "
+"href='https://sibastro.ru/report/uindex?year=2021'>Siberian Astronomical "
+"Forum SibAstro 2021</a> on September 25th, 2021"
+msgstr ""
+"A. Wolf memberikan <a href='https://www.youtube.com/watch?v=wlmTv28USvY' "
+"target='_blank'>presentasi tentang perubahan-perubahan penting Stellarium "
+"dalam 5 tahun terakhir (YouTube)</a> di <a "
+"href='https://sibastro.ru/report/uindex?year=2021'>Siberian Astronomical "
+"Forum SibAstro 2021</a> pada 25 September 2021"
+
+#: _layouts/index.html:67
+msgid ""
+"G. Zotti gave a <a href='https://www.youtube.com/watch?v=FNdLMYwBgA4' "
+"target='_blank'>presentation about Stellarium (YouTube)</a> for the <a "
+"href='https://nadc.china-vo.org/article/20210105092323'>China-VO (Virtual "
+"Observatory of the Chinese Academy of Sciences)</a> on February 1st, 2021"
+msgstr ""
+"G. Zotti memberikan <a href='https://www.youtube.com/watch?v=FNdLMYwBgA4' "
+"target='_blank'>presentasi tentang Stellarium (YouTube)</a> untuk <a "
+"href='https://nadc.china-vo.org/article/20210105092323'>China-VO "
+"(Observatorium Virtual Akademi Ilmu Pengetahuan Tiongkok)</a> pada 1 "
+"Februari 2021"
+
+#: _layouts/index.html:68
+msgid ""
+"G. Zotti gave an <a href='https://www.youtube.com/watch?v=uJBu_7qOSqQ' "
+"target='_blank'>invited talk (YouTube)</a> at the <a "
+"href='http://sion.frm.utn.edu.ar/iaus367/index.php/georg-zotti/'>IAU "
+"Symposium 367</a> on December 9th, 2020"
+msgstr ""
+"G. Zotti memberikan <a href='https://www.youtube.com/watch?v=uJBu_7qOSqQ' "
+"target='_blank'>obrolan yang diundang (YouTube)</a> di <a "
+"href='http://sion.frm.utn.edu.ar/iaus367/index.php/georg-zotti/'>IAU "
+"Symposium 367</a> pada 9 Desember 2020"
+
+#: _layouts/index.html:69
+msgid ""
+"G. Zotti gave a <a href='https://www.youtube.com/watch?v=7QdENQLx8FE' "
+"target='_blank'>talk about creating 3D sceneries (YouTube)</a> at the <a "
+"href='https://dougsarchaeology.wordpress.com/2017/10/02/visualising-"
+"skyscapes-material-forms-of-cultural-engagement-with-the-heavens/'>TAG2016 "
+"Skyscapes session</a> on December 20th, 2016"
+msgstr ""
+"G. Zotti memberikan <a href='https://www.youtube.com/watch?v=7QdENQLx8FE' "
+"target='_blank'>obrolan tentang membuat pemandangan 3D (YouTube)</a> di <a "
+"href='https://dougsarchaeology.wordpress.com/2017/10/02/visualising-"
+"skyscapes-material-forms-of-cultural-engagement-with-the-heavens/'>sesi "
+"TAG2016 Skyscapes</a> pada 20 Desember 2016"
+
+#: _layouts/index.html:74
+msgid "news"
+msgstr "berita"
+
+#: _layouts/index.html:85
+msgid "system requirements"
+msgstr "syarat sistem"
+
+#: _layouts/index.html:87
+msgid "minimal"
+msgstr "minimal"
+
+#: _layouts/index.html:89
+msgid "Linux/Unix; Windows 7 and above; macOS 11.0 and above"
+msgstr "Linux/Unix; Windows 7 dan ke atasnya; macOS 11.0 dan ke atasnya"
+
+#: _layouts/index.html:90
+msgid ""
+"3D graphics card which supports OpenGL 2.1 and GLSL 1.3 or OpenGL ES 2.0"
+msgstr ""
+"kartu grafis 3D yang mendukung OpenGL 2.1 dan GLSL 1.3 atau OpenGL ES 2.0"
+
+#: _layouts/index.html:91
+msgid "512 MiB RAM"
+msgstr "RAM 512 MiB"
+
+#: _layouts/index.html:92
+msgid "600 MiB on disk"
+msgstr "600 MiB pada penyimpanan"
+
+#: _layouts/index.html:93 _layouts/index.html:104
+msgid "Keyboard"
+msgstr "Papan Ketik"
+
+#: _layouts/index.html:94 _layouts/index.html:105
+msgid "Mouse, Touchpad or similar pointing device"
+msgstr "Tetikus, Alas Sentuh atau alat penunjuk serupa"
+
+#: _layouts/index.html:97
+msgid "recommended"
+msgstr "disarankan"
+
+#: _layouts/index.html:99
+msgid "64-bit operating system"
+msgstr "SIstem Operasi 64-bit"
+
+#: _layouts/index.html:100
+msgid "Linux/Unix; Windows 10 and above; macOS 11.0 and above"
+msgstr "Linux/Unix; Windows 10 dan ke atasnya; macOS 11.0 and ke atasnya"
+
+#: _layouts/index.html:101
+msgid "3D graphics card which supports OpenGL 3.3 and above"
+msgstr "kartu grafis 3D yang mendukung OpenGL 3.3 dan di atasnya"
+
+#: _layouts/index.html:102
+msgid "1 GiB RAM or more"
+msgstr "RAM 1 GiB atau lebih"
+
+#: _layouts/index.html:103
+msgid "1.5 GiB on disk"
+msgstr "1,5 GiB pada penyimpanan"
+
+#: _layouts/index.html:106
+msgid "Moderately dark environment (deep shadow or indoors)"
+msgstr ""
+"Tempat atau lingkungan yang cukup gelap (baik di dalam atau di bayangan yang"
+" gelap)"
+
+#: _layouts/index.html:109
+msgid "developers"
+msgstr "pengembang"
+
+#: _layouts/index.html:111
+msgid "Project coordinator:"
+msgstr "Koordinator proyek:"
+
+#: _layouts/index.html:112
+msgid "Graphic designer:"
+msgstr "Desainer grafis:"
+
+#: _layouts/index.html:113
+msgid "Developers:"
+msgstr "Pengembang:"
+
+#: _layouts/index.html:114
+msgid "Sky cultures researcher:"
+msgstr "Peneliti budaya langit:"
+
+#: _layouts/index.html:115
+msgid "Collaborators:"
+msgstr "Kolaborator:"
+
+#: _layouts/index.html:116
+msgid "and everyone else in the community"
+msgstr "dan semua orang di dalam komunitas"
+
+#: _layouts/index.html:119
+msgid "financial support"
+msgstr "dukungan keuangan"
+
+#: _layouts/index.html:121
+msgid ""
+"Many individuals and organizations are supporting the development of "
+"Stellarium by donations, and the most generous financial contributors (with "
+"donations of $250 or more) are"
+msgstr ""
+"Banyak individu dan organisasi yang mendukung pengembangan Stellarium\n"
+"melalui donasi, dan para donatur yang paling dermawan (dengan\n"
+"donasi sebesar $250 atau lebih) adalah"
+
+#: _layouts/index.html:126
+msgid "silver sponsor"
+msgstr "sponsor perak:"
+
+#: _layouts/index.html:131
+msgid "social media"
+msgstr "media sosial"
+
+#: _layouts/index.html:138
+msgid "collaborate"
+msgstr "kolaborasi"
+
+#: _layouts/index.html:139
+msgid ""
+"You can learn more about Stellarium, get support and help the project from "
+"these links"
+msgstr ""
+"Kamu dapat mempelajari Stellarium lebih banyak, dapatkan dukungan, dan bantu"
+" projek dari tautan-tautan ini"
+
+#: _layouts/index.html:141
+msgid "discussions"
+msgstr "diskusi"
+
+#: _layouts/index.html:142
+msgid "mailing list"
+msgstr "forum diskusi"
+
+#: _layouts/index.html:143
+msgid "wiki"
+msgstr "wiki"
+
+#: _layouts/index.html:144
+msgid "FAQ"
+msgstr "Tanya Jawab"
+
+#: _layouts/index.html:149
+msgid "developers documentation"
+msgstr "dokumentasi pengembang"
+
+#: _layouts/index.html:150
+msgid "scripting"
+msgstr "skripting"
+
+#: _layouts/index.html:151
+msgid "translations"
+msgstr "penerjemahan"
+
+#: _layouts/index.html:152
+msgid "get support, report bugs, request new features"
+msgstr "memperoleh dukungan, melaporkan bug, meminta fitur-fitur baru "
+
+#: _layouts/index.html:153
+msgid "all releases"
+msgstr "semua rilis"
+
+#: _layouts/index.html:154 _layouts/index.html:155
+msgid "user guide"
+msgstr "panduan pengguna"
+
+#: _layouts/index.html:156
+msgid "weekly snapshots"
+msgstr "snapshot mingguan"
+
+#: _layouts/index.html:157
+msgid "ppa for ubuntu linux"
+msgstr "ppa untuk ubuntu linux"
+
+#: _layouts/index.html:158
+msgid "archive"
+msgstr "arsip"
+
+#: _layouts/index.html:161
+msgid "acknowledgment"
+msgstr "ucapan terima kasih"
+
+#: _layouts/index.html:162
+msgid ""
+"If the Stellarium planetarium was helpful for your research work, please "
+"cite the following paper in your acknowledgment:"
+msgstr ""
+"Jika Stellarium sangat membantu penelitianmu, mohon rujuk artikel di bawah "
+"ini dalam ucapan terima kasih:"
+
+#: _layouts/index.html:163
+msgid "This research has made use of the Stellarium planetarium"
+msgstr "Penelitian ini telah menggunakan Stellarium planetarium"
+
+#: _layouts/index.html:167
+msgid ""
+"Or you may <a href='/files/stellarium.bib'>download the BibTeX file of the "
+"paper</a> to create another citation format."
+msgstr ""
+"Atau kamu dapat <a href='/files/stellarium.bib'>mengunduh berkas BibTeX dari"
+" artikelnya</a> untuk membuat format rujukan lain."
+
+#: _layouts/index.html:168
+msgid ""
+"Please note that the software has several releases since these fundamentals "
+"were published:"
+msgstr ""
+"Perlu dicatat bahwa perangkat lunak ini memiliki beberapa rilis sejak "
+"dasarnya diterbitkan:"
+
+#: _layouts/index.html:175
+msgid "git"
+msgstr "git"
+
+#: _layouts/index.html:176
+msgid ""
+"The latest development snapshot of Stellarium is kept on github. If you want"
+" to compile development versions of Stellarium, this is the place to get the"
+" source code."
+msgstr ""
+"Pengembanga terakhir gambaran dari Stellarium disimpan dalam Github. Jika "
+"kamu ingin mengkompilasi versi pengembangan dari Stellarium, ini adalah "
+"tempat untuk mendapatkan kode sumbernya "
+
+#: _layouts/index.html:178
+msgid "browse GitHub"
+msgstr "jelajahi GitHub"
+
+#: _layouts/index.html:181
+msgid "books"
+msgstr "buku"
+
+#: _layouts/index.html:182
+msgid ""
+"Documentation and description of the sky cultures, state March 2022, plus a "
+"lot of additional research"
+msgstr ""
+"Dokumentasi dan gambaran budaya-budaya langit, pada Maret 2022, beserta "
+"beberapa penelitian tambahan"
+
+#: _layouts/index.html:188
+msgid "irc"
+msgstr "irc"
+
+#: _layouts/index.html:189
+msgid ""
+"Real time chat about Stellarium can be had in the <a "
+"href='irc://irc.freenode.org/stellarium'>#stellarium</a> IRC channel on the "
+"<a href='http://freenode.net'>freenode</a> IRC network. Use your favorite "
+"IRC client to connect to <a "
+"href='irc://irc.freenode.org/stellarium'>chat.freenode.net</a> or try the <a"
+" href='http://webchat.freenode.net/?channels=stellarium&uio=MTE9MjQ255'>web-"
+"based interface</a>."
+msgstr ""
+"Obrolan secara langsung tentang Stellarium dapat dilakukan di saluran IRC <a"
+" href='irc://irc.freenode.org/stellarium'>#stellarium</a>  di <a "
+"href='http://freenode.net'>freenode</a>. gunakan klien IRC kesukaanmu untuk "
+"terhubung ke <a "
+"href='irc://irc.freenode.org/stellarium'>chat.freenode.net</a> atau coba "
+"yang <a "
+"href='http://webchat.freenode.net/?channels=stellarium&uio=MTE9MjQ255'>tampilan"
+" berbasis web</a>."
+
+#: _layouts/index.html:192
+msgid "supporters and friends"
+msgstr "pendukung dan teman-teman"
+
+#: _layouts/index.html:194
+msgid ""
+"Stellarium is produced by the efforts of the developer team, with the help "
+"and support of the <a href='/%lang%/sponsors.html'>following people and "
+"organisations</a>"
+msgstr ""
+"Stellarium dihasilkan melalui usaha tim pengembang, dengan bantuan dan "
+"dukungan dari <a href='/%lang%/sponsors.html'>orang dan organisasi "
+"terkait</a>"
+
+#: _layouts/screenshots.html:8
+msgid ""
+"Since version 0.10 Stellarium has new graphical user interface. The vertical"
+" bar links to windows, the horizontal bar shows toggle buttons, just like it"
+" used to."
+msgstr ""
+"Sejak versi 0.10 Stellarium memiliki tampilah yang baru. Garis vertikal "
+"untuk menunjukkan jendela menu, garis horizontal menunjukkan tombol-tombol "
+"fungsi, seperti sebelumnya."
+
+#: _layouts/screenshots.html:9
+msgid ""
+"The location window.  The first thing you have to do is set your observing "
+"position and save it. The landscape is a panorama from the ESO facilities in"
+" Garching, near Munich, Germany. ESO is the European Organisation for "
+"Astronomical Research in the Southern Hemisphere."
+msgstr ""
+"Lokasi jendela. Hal pertama yang harus kamu lakukan adalah mengatur posisi "
+"mengamati-mu dan menyimpannya. Lanskapnya adalah panorama dari fasilitas ESO"
+" di Garching, dekat Munich, Jerman. ESO adalah organisasi Eropa untuk riset "
+"astronomi di belahan selatan."
+
+#: _layouts/screenshots.html:10
+msgid ""
+"The sun is down, the stars are visible.  Since version 0.10.0 Stellarium has"
+" extensive star catalogs.  600,000 are included by default, but you can even"
+" download extra catalogues to see up to 210 million stars. This work was "
+"done by our team member Johannes."
+msgstr ""
+"Matahari telah tenggelam, bintang-bintang kini tampak. Sejak versi 0.10.0 "
+"Stellarium memiliki katalog bintang yang luas. 600.000 bintang secara "
+"default, tetapi kamu dapat mengunduh katalog ekstra untuk melihat sampai 210"
+" juta bintang. Pekerjaan ini dilakukan oleh anggota tim kita Johannes."
+
+#: _layouts/screenshots.html:14
+msgid ""
+"The Starlore tab in the View window.  Choose between different cultures and "
+"see how they looked at the stars."
+msgstr ""
+"Tab Starlore pada jendela View. Pilih antara kultur yang berbeda dan kuhat "
+"bagaimana kultur tersebut melihat bintang-bintang."
+
+#: _layouts/screenshots.html:15
+msgid ""
+"Selecting a planet and pressing Ctrl+G flies you there.  Here, we see Mars "
+"from a rover&#39;s viewpoint."
+msgstr ""
+"Memilih sebuah planet dan tekan Ctrl+G kamu terbang. Disana, kita melihat "
+"Mars dari sudut pandang rover&#39;"
+
+#: _layouts/screenshots.html:18
+msgid ""
+"See how different amounts of light pollution make the universe invisible."
+msgstr ""
+"Lihat bagaimana perbedaan jumlah polusi cahaya membuat alam semesta tidak "
+"terlihat."
+
+#: _layouts/screenshots.html:19
+msgid ""
+"Search for a planet, nebula, constellation or a specific star. Press enter, "
+"and Stellarium centers on the object."
+msgstr ""
+"Cari sebuah planet, nebula, rasi bintang, atau sebuah bintang spesifik. "
+"Tekan enter, dan Stellarium akan membawa sudut pandangnya ke objek tersebut."
+
+#: _layouts/screenshots.html:24
+msgid "Stellarium screenshot gallery"
+msgstr "Galeri cuplikan layar Stellarium"
+
+#: _layouts/screenshots.html:25
+msgid "Please select an image."
+msgstr "Silakan pilih sebuah gambar."
+
+#: _layouts/scenery3d.html:17
+msgid "how to install 3D sceneries"
+msgstr "cara memasang pemandangan 3D"
+
+#: _layouts/scenery3d.html:18
+msgid ""
+"After you have downloaded the .zip file for a 3D scenery, you need to "
+"install it in Stellarium."
+msgstr ""
+"Setelah mengunduh berkas .zip yang berisi pemandangan 3D, kamu perlu "
+"memasangnya di Stellarium."
+
+#: _layouts/scenery3d.html:20
+msgid ""
+"Browse to your User Data Directory, which varies according to your operating"
+" system. (See User Guide)"
+msgstr ""
+"Telusuri direktori User Data kamu, yang lokasinya berbeda-beda tergantung "
+"sistem operasimu (lihat Panduan Pengguna)"
+
+#: _layouts/scenery3d.html:21
+msgid ""
+"Create a sub-directory called <em>scenery3d</em> in your User Data Directory"
+" (if it doesn't exist)."
+msgstr ""
+"Buat subdirektori yang bernama <em>scenery3d</em> di direktori User Data "
+"kamu (jika tidak ada)."
+
+#: _layouts/scenery3d.html:22
+msgid ""
+"Unzip the scenery .zip file in the <em>scenery3d</em> directory (if it's "
+"done right, a sub-directory should be created for each scenery)."
+msgstr ""
+"Buka berkas .zip berisi pemandangan tadi di direktori <em>scenery3d</em> "
+"(jika dilakukan dengan benar, sebuah subdirektori akan dibuat untuk setiap "
+"pemandangan)."
+
+#: _layouts/scenery3d.html:23
+msgid ""
+"If there is also a landscapes subdirectory in the ZIP file, move its "
+"contents to the <em>landscapes</em> subdirectory."
+msgstr ""
+"Jika terdapat subdirektori lanskap di berkas .zip, pindahkan isinya ke "
+"subdirektori <em>landscapes</em>."
+
+#: _layouts/scenery3d.html:26
+msgid ""
+"Please feel free to contribute your own custom 3D sceneries here. Make "
+"thumbnails 200x114 pixels to fit with the rest of the page. Please include a"
+" location section in your scenery3d.ini file with the longitude, latitude, "
+"altitude and planet for the location of the scenery (see one of the pre-"
+"existing sceneries for an example)."
+msgstr ""
+"Silakan berkontribusi pemandangan 3D buatanmu sendiri di sini. Buat gambar "
+"kecil sebesar 200x114 piksel agar muat dengan sisa halamannya. Mohon juga "
+"masukkan bagian lokasi di dalam berkas scenery3d.ini dengan lintang, bujur, "
+"ketinggian, dan planet untuk lokasi pemandangan (lihat konfigurasi "
+"pemandangan yang sudah ada sebelumnya sebagai contoh)."
+
+#: _layouts/scenery3d.html:27
+msgid ""
+"To find out more about how to create a 3D scenery, see the Stellarium User "
+"Guide, and examine existing examples. If you are having problems, posting to"
+" the forums is a good way to get some advice."
+msgstr ""
+"Untuk mencari tahu lebih lanjut cara membuat pemandangan 3D, lihat Panduan "
+"Pengguna Stellarium, dan teliti setiap contohnya. Jika kamu mengalami "
+"masalah, menanyakan ke forum adalah cara yang bagus untuk mendapat masukan."
+
+#: _layouts/scenery3d.html:29
+msgid ""
+"IMPORTANT: Try to still use textures with dimensions of integer powers of 2,"
+" i.e. 256, 512, 1024, 2048, 4096, 8192, 16384, ... e.g. 4096 by 1024, 2048 "
+"by 2048 and so on."
+msgstr ""
+"PENTING: Coba untuk menggunakan tekstur dengan dimensi dari pangkat 2 "
+"seperti 256, 512, 1024, 2048, 4096, 8192, 16384, dst. Misal, 4096x1024, "
+"2048x2024, dan seterusnya."
+
+#: _layouts/scenery3d.html:30
+msgid ""
+"This is a limitation of older OpenGL hardware. Most video hardware will "
+"nowadays work OK with images with different image dimensions, but some will "
+"not display properly, suffer vastly reduced frame rates, and even crash the "
+"computer."
+msgstr ""
+"Ini dikarenakan adanya keterbatasan pada perangkat keras OpenGL yang lebih "
+"tua. Sebagian besar perangkat keras video saat ini akan bekerja baik dengan "
+"gambar yang berbeda dimensi, tetapi sebagian lainnya tidak akan bekerja "
+"dengan benar, mengalami penurunan kecepatan frame, dan bahkan gagal bekerja "
+"di komputer."
+
+#: _layouts/scenery3d.html:31
+msgid ""
+"Be aware that many people's video hardware cannot handle very large "
+"textures. This is hardware and driver dependent. Maximum compatibility is "
+"achieved with image size not exceeding 2048x2048."
+msgstr ""
+"Perlu diperhatikan bahwa banyak perangkat keras video tidak dapat menangani "
+"tekstur yang sangat besar. Ini tergantung dari perangkat keras dan driver-"
+"nya. Kesesuaian maksimal dapat dicapai dengan dimensi gambar tidak melebihi "
+"2048x2048."
+
+#: _layouts/scenery3d.html:33
+msgid ""
+"Please package your 3D scenery in a .zip file with all files inside a "
+"subdirectory in the .zip file. This should be unique to your scenery, and "
+"must be all lower-case with no spaces."
+msgstr ""
+"Mohon untuk menyimpan pemandangan 3D dalam berkas .zip dengan semua "
+"berkasnya di dalam sebuah subdirektori di berkas .zip-nya. Berkas ini harus "
+"unik dari pemandangan lain, dan semua nama harus dalam huruf kecil tanpa "
+"spasi."
+
+#: _layouts/scenery3d.html:34
+msgid ""
+"If you enclose your scenery with a landscape, provide this in a "
+"landscapes/name subdirectory in the ZIP file."
+msgstr ""
+"Jika kamu menyertakan pemandanganmu dengan sebuah lanskap, sediakan "
+"lanskapnya di subdirektori lanskap di berkas .zip-nya."
+
+#: _layouts/scenery3d.html:35
+msgid ""
+"The file <em>description.en.utf8</em> (and any translated versions which you"
+" may want to provide yourself) describes the scenery and what is special "
+"about it. Please make this a self-contained explanation that does not only "
+"point to external links."
+msgstr ""
+"Berkas <em>description.en.utf8</em> (dan versi terjemahan apapun yang ingin "
+"kamu sediakan sendiri) menjelaskan pemandangannya dan apa yang istimewa dari"
+" ini. Mohon untuk membuat ini penjelasan sendiri tanpa mengarah ke pranala "
+"luar apapun."
+
+#: _layouts/scenery3d.html:36
+msgid ""
+"You should also include a readme.txt file which briefly describes the "
+"landscape and specifies any usage restrictions or licensing terms for the "
+"images used in the 3D scenery."
+msgstr ""
+"Kamu juga harus menyertakan sebuah berkas readme.txt yang menjelaskan secara"
+" singkat lanskapnya dan menentukan batasan penggunaan apapun atau ketentuan "
+"lisensi untuk gambar yang digunakan dalam pemandangan 3D."
+
+#: _layouts/scenery3d.html:38
+msgid ""
+"Before you distribute images as part of a Stellarium 3D scenery or "
+"landscape, please ensure you are legally entitled to - you must be the "
+"copyright holder for the images, or be able to distribute them for use with "
+"Stellarium under the terms of some agreement with the copyright holder (e.g."
+" Creative Commons licensed images found on the web)."
+msgstr ""
+"Sebelum kamu menyebarluaskan gambar sebagai bagian dari pemandangan 3D atau "
+"lanskap Stellarium, mohon pastikan kamu berhak memilikinya - kamu harus "
+"menjadi pemegang hak cipta untuk gambarnya, atau dapat menyebarluaskannya "
+"dengan Stellarium di bawah ketentuan hak cipta dengan pemegang aslinya "
+"(seperti lisensi Creative Commons yang ditemukan di web)."
+
+#: _layouts/scenery3d.html:39
+msgid ""
+"It is important to explicitly state what use may be made of images for your "
+"3D scenery. This should be done in the readme.txt file inside the .zip file."
+msgstr ""
+"Penting untuk menyatakan dengan jelas gambarnya digunakan untuk apa saja "
+"untuk pemandangan 3D. Ini dapatkan dilakukan di berkas readme.txt di dalam "
+"berkas .zip-nya."
+
+#: _layouts/scenery3d.html:40
+msgid ""
+"We recommend an open source license compatible with Stellarium itself (i.e.,"
+" the GNU GPL), or one of the Creative Commons licenses."
+msgstr ""
+"Kami menyarankan lisensi sumber terbuka yang sesuai dengan Stellarium itu "
+"sendiri (seperti GNU GPL), atau lisensi Creative Commons."
+
+#: _layouts/scenery3d.html:42
+msgid ""
+"The scenery3d.ini and readme.txt files should be UTF-8 encoded text or plain"
+" ASCII. It's probably a good idea to adopt the Windows line ending encoding,"
+" (i.e. CR LF). Both Windows and *nix style line ending encoding should work "
+"OK in Stellarium, but Windows users will have an ugly time reading the "
+"readme.txt if it uses *nix-style newlines."
+msgstr ""
+"Berkas scenery3d.ini dan readme.txt harus dikodekan dalam UTF-8 atau ASCII "
+"biasa. Akan menjadi ide bagus untuk menggunakan pengkodean akhir baris dari "
+"Windows (CR LF). Pengkodean akhir baris Windows dan pengkodean LF yang "
+"digunakan di sistem mirip Unix seharusnya bekerja dengan baik di Stellarium,"
+" tetapi pengguna Windows akan mengalami kesusahan membaca readme.txt jika "
+"menggunakan pengkodean LF."
+
+#: _layouts/scenery3d.html:44
+msgid ""
+"If you have a 3D scenery of culture astronomical interest you would like to "
+"share but have no web-space to put it, email to any Stellarium developers "
+"and we'll put it on our site."
+msgstr ""
+"Jika kamu memiliki pemandangan 3D yang menarik dalam astronomi budaya yang "
+"ingin kamu bagikan tetapi tidak punya tempat di web untuk ditaruh, kirim "
+"surel ke pengembang Stellarium siapapun dan kami akan menaruhnya di situs "
+"kami."
+
+#: _layouts/default.html:11
+msgid "Other languages:"
+msgstr "Bahasa lain:"
+
+#: _layouts/skycultures.html:17
+msgid "how to install sky cultures"
+msgstr "cara memasang budaya langit"
+
+#: _layouts/skycultures.html:18
+msgid ""
+"After you have downloaded the .zip file for a sky culture from this page, "
+"you need to install it in Stellarium."
+msgstr ""
+"Setelah anda mengunduh file .zip untuk sebuah budaya langit dari halaman "
+"ini, anda harus memasangnya di dalam Stellarium."
+
+#: _layouts/skycultures.html:20
+msgid "Please follow this procedure to install a sky culture package:"
+msgstr "Ikuti langkah berikut untuk memasang paket budaya langit"
+
+#: _layouts/skycultures.html:23
+msgid ""
+"Create a sub-directory called <em>skycultures</em> in your user directory "
+"(if it doesn't exist)."
+msgstr ""
+"Buat sebuah subdirektori bernama <em>skyculture</em> di dalam direktori "
+"pengguna (jika belum ada)"
+
+#: _layouts/skycultures.html:24
+msgid ""
+"Unzip the sky culture .zip file in the <em>skycultures</em> directory (if "
+"it's done right, a sub-directory should be created for each sky culture)."
+msgstr ""
+"Membuka file sky culture .zip di dalam direktori <em>skyculture</em> (Jika "
+"benar, sebuah subdirektori akan dibuatkan untuk setiap sku culture)."
+
+#: _layouts/skycultures.html:27
+msgid ""
+"Please feel free to contribute your own custom sky culture here. Make "
+"thumbnails 300x170 pixels to fit with the rest of the page."
+msgstr ""
+"Silahkan berkontribusi budaya langitmu sendiri di sini. Buat gambar kecil "
+"berukuran 300x170 piksel untuk memuat sisa halaman."
+
+#: _layouts/skycultures.html:28
+msgid ""
+"To find out more about how to create a sky culture, see the Stellarium User "
+"Guide, and examine existing sky cultures. If you are having problems, "
+"posting to the forums is a good way to get some advice."
+msgstr ""
+"Untuk mencari tahu lebih lanjut cara budaya langit, lihat Panduan Pengguna "
+"Stellarium, dan teliti budaya langit yang sudah ada. Jika kamu mengalami "
+"masalah, menanyakan ke forum adalah cara yang bagus untuk mendapat masukan."
+
+#: _layouts/skycultures.html:32
+msgid ""
+"Please make sure all contributed sky cultures conform to these requirements,"
+" or your link may be removed."
+msgstr ""
+"Mohon untuk memastikan bahwa budaya langit yang dikontribusikan ke "
+"Stellarium mematuhi ketentuan ini, atau pranalamu mungkin dapat dihapus"
+
+#: _layouts/skycultures.html:35
+msgid ""
+"Please package your sky culture in a .zip file with all files inside a "
+"directory in the .zip file. This should be unique to your sky culture, and "
+"it would be nice if it was all lower-case with no spaces."
+msgstr ""
+"Mohon untuk menyimpan budaya langit dalam berkas .zip dengan semua berkasnya"
+" di dalam sebuah subdirektori di berkas .zip-nya. Nama berkasnya harus unik,"
+" dan semua nama harus dalam huruf kecil tanpa spasi."
+
+#: _layouts/skycultures.html:36
+msgid ""
+"You should also include a description.en.utf8 file which describes the sky "
+"culture and specifies any usage restrictions or licensing terms for the "
+"images used in the sky culture."
+msgstr ""
+"Kamu juga harus menyertakan sebuah berkas description.en.utf8 yang "
+"menjelaskan secara singkat budaya langitnya dan menentukan batasan "
+"penggunaan apapun atau ketentuan lisensi untuk gambar yang digunakan dalam "
+"budaya langit."
+
+#: _layouts/skycultures.html:38
+msgid ""
+"Before you distribute images as part of a Stellarium sky culture, please "
+"ensure you are legally entitled to - you must be the copyright holder for "
+"the images, or be able to distribute them for use with Stellarium under the "
+"terms of some agreement with the copyright holder (e.g. Creative Commons "
+"licensed images found on the web)."
+msgstr ""
+"Sebelum kamu menyebarluaskan gambar sebagai bagian dari budaya langit "
+"Stellarium, mohon pastikan kamu berhak memilikinya - kamu harus menjadi "
+"pemegang hak cipta untuk gambarnya, atau dapat menyebarluaskannya dengan "
+"Stellarium di bawah ketentuan hak cipta dengan pemegang aslinya (seperti "
+"lisensi Creative Commons yang ditemukan di web)."
+
+#: _layouts/skycultures.html:39
+msgid ""
+"It is important to explicitly state what use may be made of images for your "
+"sky culture. This should be done in the description.en.utf8 file (and value "
+"for option 'license' in info.ini file) inside the .zip file."
+msgstr ""
+"Penting untuk menyatakan dengan jelas gambarnya digunakan untuk apa saja "
+"untuk budaya langitnya. Ini dapatkan dilakukan di berkas description.en.utf8"
+" (dan nilai untuk opsi 'license' di berkas info.ini) di dalam berkas .zip-"
+"nya."
+
+#: _layouts/skycultures.html:42
+msgid ""
+"The info.ini and description.en.utf8 files should be UTF-8 encoded text or "
+"plain ASCII. It's probably a good idea to adopt the Windows line ending "
+"encoding, (i.e. CR LF). Both Windows and *nix style line ending encoding "
+"should work OK in Stellarium, but Windows users will have an ugly time "
+"reading the description.en.utf8 if it uses *nix-style newlines."
+msgstr ""
+"Berkas info.ini dan description.en.utf8 dan readme.txt harus dikodekan dalam"
+" UTF-8 atau ASCII biasa. Akan menjadi ide bagus untuk menggunakan pengkodean"
+" akhir baris dari Windows (CR LF). Pengkodean akhir baris Windows dan "
+"pengkodean LF yang digunakan di sistem mirip Unix seharusnya bekerja dengan "
+"baik di Stellarium, tetapi pengguna Windows akan mengalami kesusahan membaca"
+" readme.txt jika menggunakan pengkodean LF."
+
+#: _layouts/skycultures.html:44
+msgid ""
+"If you have a sky culture you would like to share but have no web-space to "
+"put it, email to any Stellarium developers and we'll put it on our site."
+msgstr ""
+"Jika kamu memiliki sebuah budaya langit yang ingin kamu bagikan tetapi tidak"
+" punya tempat di web untuk ditaruh, kirim surel ke pengembang Stellarium "
+"siapapun dan kami akan menaruhnya di situs kami."
+
+#: _layouts/docs.html:7
+msgid ""
+"Here you can find API documentation for various series of Stellarium. "
+"<em>head</em> refers to the latest version from development (although this "
+"may lag behind a little as the documentation is only uploaded every so "
+"often)."
+msgstr ""
+"Disini kamu dapat temukan dokumentasi API untuk berbagai seri dari "
+"Stellarium. <em>mengepalai</em> mengacu kepada versi terakhir dari "
+"pengembangan (meskipun ini mungkin tertinggal sedikit sebagai dokumentasi "
+"hanya unggah setiap begitu sering)"
+
+#: _layouts/docs.html:23
+msgid "plugins api documentation"
+msgstr "dokumentasi api plug-in"
+
+#: _layouts/docs.html:31
+msgid "changes between packages"
+msgstr "perubahan antara paket"

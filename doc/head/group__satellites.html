@@ -132,34 +132,44 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:gac9eb22e1e81155872f36b79a505e5042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description of the data roles used in <a class="el" href="group__satellites.html#classSatellitesListModel" title="A model encapsulating a satellite list.">SatellitesListModel</a>. <br /></td></tr>
 <tr class="separator:gac9eb22e1e81155872f36b79a505e5042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab831fdf9d777df775761e20aeda068df"><td class="memItemLeft" align="right" valign="top"><a id="gab831fdf9d777df775761e20aeda068df"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#gab831fdf9d777df775761e20aeda068df">SatFlag</a> { <br />
-&#160;&#160;<b>SatNoFlags</b> = 0x000000
-, <b>SatDisplayed</b> = 0x000001
-, <b>SatNotDisplayed</b> = 0x000002
-, <b>SatUser</b> = 0x000004
+&#160;&#160;<b>SatNoFlags</b> = 0x00000000
+, <b>SatDisplayed</b> = 0x00000001
+, <b>SatNotDisplayed</b> = 0x00000002
+, <b>SatUser</b> = 0x00000004
 , <br />
-&#160;&#160;<b>SatOrbit</b> = 0x000008
-, <b>SatNew</b> = 0x000010
-, <b>SatError</b> = 0x000020
-, <b>SatSmallSize</b> = 0x000040
+&#160;&#160;<b>SatOrbit</b> = 0x00000008
+, <b>SatNew</b> = 0x00000010
+, <b>SatError</b> = 0x00000020
+, <b>SatSmallSize</b> = 0x00000040
 , <br />
-&#160;&#160;<b>SatMediumSize</b> = 0x000080
-, <b>SatLargeSize</b> = 0x000100
-, <b>SatLEO</b> = 0x000200
-, <b>SatMEO</b> = 0x000400
+&#160;&#160;<b>SatMediumSize</b> = 0x00000080
+, <b>SatLargeSize</b> = 0x00000100
+, <b>SatLEO</b> = 0x00000200
+, <b>SatMEO</b> = 0x00000400
 , <br />
-&#160;&#160;<b>SatGSO</b> = 0x000800
-, <b>SatHEO</b> = 0x001000
-, <b>SatHGSO</b> = 0x002000
-, <b>SatPolarOrbit</b> = 0x004000
+&#160;&#160;<b>SatGSO</b> = 0x00000800
+, <b>SatHEO</b> = 0x00001000
+, <b>SatHGSO</b> = 0x00002000
+, <b>SatPolarOrbit</b> = 0x00004000
 , <br />
-&#160;&#160;<b>SatEquatOrbit</b> = 0x008000
-, <b>SatPSSO</b> = 0x010000
-, <b>SatHEarthO</b> = 0x020000
-, <b>SatOutdatedTLE</b> = 0x040000
+&#160;&#160;<b>SatEquatOrbit</b> = 0x00008000
+, <b>SatPSSO</b> = 0x00010000
+, <b>SatHEarthO</b> = 0x00020000
+, <b>SatOutdatedTLE</b> = 0x00040000
 , <br />
-&#160;&#160;<b>SatCustomFilter</b> = 0x080000
-, <b>SatCommunication</b> = 0x100000
-, <b>SatReentry</b> = 0x200000
+&#160;&#160;<b>SatCustomFilter</b> = 0x00080000
+, <b>SatCommunication</b> = 0x00100000
+, <b>SatReentry</b> = 0x00200000
+, <b>SatActiveOS</b> = 0x00400000
+, <br />
+&#160;&#160;<b>SatOperationalOS</b> = 0x00800000
+, <b>SatNonoperationalOS</b> = 0x01000000
+, <b>SatPartiallyOperationalOS</b> = 0x02000000
+, <b>SatStandbyOS</b> = 0x04000000
+, <br />
+&#160;&#160;<b>SatSpareOS</b> = 0x08000000
+, <b>SatExtendedMissionOS</b> = 0x10000000
+, <b>SatDecayedOS</b> = 0x20000000
 <br />
  }</td></tr>
 <tr class="memdesc:gab831fdf9d777df775761e20aeda068df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag type reflecting internal flags of <a class="el" href="group__satellites.html#classSatellite" title="A representation of a satellite in Earth orbit.">Satellite</a>. <br /></td></tr>
@@ -417,9 +427,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&gt;=</b> (<a
  }</td></tr>
 <tr class="separator:ac0a61cf08d6ca486ed6d9153a20ee2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><h3>Public Member Functions</h3></td></tr>
-<tr class="memitem:a58efec141ef141d2b4a195ba999405a9"><td class="memItemLeft" align="right" valign="top"><a id="a58efec141ef141d2b4a195ba999405a9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>gSatWrapper</b> (QString designation, QString tle1, QString tle2)</td></tr>
-<tr class="separator:a58efec141ef141d2b4a195ba999405a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cf4543b06b9079973e08983e3fe18a"><td class="memItemLeft" align="right" valign="top"><a id="ac7cf4543b06b9079973e08983e3fe18a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>gSatWrapper</b> (const QString &amp;designation, const QString &amp;tle1, const QString &amp;tle2)</td></tr>
+<tr class="separator:ac7cf4543b06b9079973e08983e3fe18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafe4efcd50ef0003a5434bc6838a8f1e"><td class="memItemLeft" align="right" valign="top"><a id="aafe4efcd50ef0003a5434bc6838a8f1e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#aafe4efcd50ef0003a5434bc6838a8f1e">setEpoch</a> (double ai_julianDaysEpoch)</td></tr>
 <tr class="memdesc:aafe4efcd50ef0003a5434bc6838a8f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This operation update Epoch timestamp for <a class="el" href="group__satellites.html#classgSatTEME" title="Sat position and velocity predictions over TEME reference system.">gSatTEME</a> object from Stellarium Julian Date. <br /></td></tr>
@@ -442,9 +452,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memitem:a7ea41bcd11e0da33321b0b4c4089d54c"><td class="memItemLeft" align="right" valign="top">Visibility&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a7ea41bcd11e0da33321b0b4c4089d54c">getVisibilityPredict</a> () const</td></tr>
 <tr class="memdesc:a7ea41bcd11e0da33321b0b4c4089d54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This operation predicts the satellite visibility contidions.  <a href="group__satellites.html#a7ea41bcd11e0da33321b0b4c4089d54c">More...</a><br /></td></tr>
 <tr class="separator:a7ea41bcd11e0da33321b0b4c4089d54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa661b738a14231c9243fee67517ade36"><td class="memItemLeft" align="right" valign="top"><a id="aa661b738a14231c9243fee67517ade36"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>getPhaseAngle</b> () const</td></tr>
-<tr class="separator:aa661b738a14231c9243fee67517ade36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c84a8228739b94222023ccfa791194f"><td class="memItemLeft" align="right" valign="top"><a id="a3c84a8228739b94222023ccfa791194f"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a3c84a8228739b94222023ccfa791194f">getOrbitalPeriod</a> () const</td></tr>
 <tr class="memdesc:a3c84a8228739b94222023ccfa791194f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get orbital period in minutes. <br /></td></tr>
@@ -747,10 +754,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#aad1574899b7903220ae1756649605a36">createDialogContent</a> () override</td></tr>
 <tr class="memdesc:aad1574899b7903220ae1756649605a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the dialog widgets and connect the signals/slots. <br /></td></tr>
 <tr class="separator:aad1574899b7903220ae1756649605a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classStelDialog"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classStelDialog')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classStelDialog.html">StelDialog</a></td></tr>
-<tr class="memitem:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">connectColorButton</a> (QToolButton *button, const QString &amp;propertyName, const QString &amp;iniName, const QString &amp;moduleName=&quot;&quot;)</td></tr>
-<tr class="memdesc:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare a QToolButton so that it can receive and handle <a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b" title="To be called by a connected QToolButton with a color background.">askColor()</a> connections properly.  <a href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">More...</a><br /></td></tr>
-<tr class="separator:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><h3>Protected Attributes</h3></td></tr>
 <tr class="memitem:a86ac1e21b1b48d561dbbd87a3b01823a"><td class="memItemLeft" align="right" valign="top"><a id="a86ac1e21b1b48d561dbbd87a3b01823a"></a>
 Ui_satellitesCommDialog *&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b></td></tr>
@@ -795,9 +798,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>askConfirmation</b> (
 <tr class="memitem:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="aba69096a162791f2a90639b05c0abaf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>messageBox</b> (const QString &amp;title, const QString &amp;message)</td></tr>
 <tr class="separator:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">askColor</a> ()</td></tr>
-<tr class="memdesc:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called by a connected QToolButton with a color background.  <a href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">More...</a><br /></td></tr>
-<tr class="separator:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="a80fb8e43b2ea5d4a74f815bb0723d1fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a80fb8e43b2ea5d4a74f815bb0723d1fd">enableKineticScrolling</a> (bool b)</td></tr>
 <tr class="memdesc:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable kinetic scrolling. This should be connected to <a class="el" href="classStelApp.html" title="Singleton main Stellarium application class.">StelApp</a>'s <a class="el" href="classStelGui.html" title="Main class for the GUI based on QGraphicView.">StelGui</a> signal flagUseKineticScrollingChanged. <br /></td></tr>
@@ -932,10 +932,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#aaba1c816df61d16219952dd4ef57711b">createDialogContent</a> () override</td></tr>
 <tr class="memdesc:aaba1c816df61d16219952dd4ef57711b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the dialog widgets and connect the signals/slots. <br /></td></tr>
 <tr class="separator:aaba1c816df61d16219952dd4ef57711b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classStelDialog"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classStelDialog')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classStelDialog.html">StelDialog</a></td></tr>
-<tr class="memitem:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">connectColorButton</a> (QToolButton *button, const QString &amp;propertyName, const QString &amp;iniName, const QString &amp;moduleName=&quot;&quot;)</td></tr>
-<tr class="memdesc:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare a QToolButton so that it can receive and handle <a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b" title="To be called by a connected QToolButton with a color background.">askColor()</a> connections properly.  <a href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">More...</a><br /></td></tr>
-<tr class="separator:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -961,9 +957,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>askConfirmation</b> (
 <tr class="memitem:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="aba69096a162791f2a90639b05c0abaf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>messageBox</b> (const QString &amp;title, const QString &amp;message)</td></tr>
 <tr class="separator:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">askColor</a> ()</td></tr>
-<tr class="memdesc:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called by a connected QToolButton with a color background.  <a href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">More...</a><br /></td></tr>
-<tr class="separator:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="a80fb8e43b2ea5d4a74f815bb0723d1fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a80fb8e43b2ea5d4a74f815bb0723d1fd">enableKineticScrolling</a> (bool b)</td></tr>
 <tr class="memdesc:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable kinetic scrolling. This should be connected to <a class="el" href="classStelApp.html" title="Singleton main Stellarium application class.">StelApp</a>'s <a class="el" href="classStelGui.html" title="Main class for the GUI based on QGraphicView.">StelGui</a> signal flagUseKineticScrollingChanged. <br /></td></tr>
@@ -1111,9 +1104,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>askConfirmation</b> (
 <tr class="memitem:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="aba69096a162791f2a90639b05c0abaf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>messageBox</b> (const QString &amp;title, const QString &amp;message)</td></tr>
 <tr class="separator:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">askColor</a> ()</td></tr>
-<tr class="memdesc:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called by a connected QToolButton with a color background.  <a href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">More...</a><br /></td></tr>
-<tr class="separator:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="a80fb8e43b2ea5d4a74f815bb0723d1fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a80fb8e43b2ea5d4a74f815bb0723d1fd">enableKineticScrolling</a> (bool b)</td></tr>
 <tr class="memdesc:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable kinetic scrolling. This should be connected to <a class="el" href="classStelApp.html" title="Singleton main Stellarium application class.">StelApp</a>'s <a class="el" href="classStelGui.html" title="Main class for the GUI based on QGraphicView.">StelGui</a> signal flagUseKineticScrollingChanged. <br /></td></tr>
@@ -1129,10 +1119,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ada9ae9c079ed54a950343c92b2d1b715 inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="ada9ae9c079ed54a950343c92b2d1b715"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updateNightModeProperty</b> (bool n)</td></tr>
 <tr class="separator:ada9ae9c079ed54a950343c92b2d1b715 inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classStelDialog"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classStelDialog')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classStelDialog.html">StelDialog</a></td></tr>
-<tr class="memitem:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">connectColorButton</a> (QToolButton *button, const QString &amp;propertyName, const QString &amp;iniName, const QString &amp;moduleName=&quot;&quot;)</td></tr>
-<tr class="memdesc:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare a QToolButton so that it can receive and handle <a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b" title="To be called by a connected QToolButton with a color background.">askColor()</a> connections properly.  <a href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">More...</a><br /></td></tr>
-<tr class="separator:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classStelDialog"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classStelDialog')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classStelDialog.html">StelDialog</a></td></tr>
 <tr class="memitem:affed9a4db21c26a7f584048a46b3008e inherit pro_static_methods_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="affed9a4db21c26a7f584048a46b3008e"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#affed9a4db21c26a7f584048a46b3008e">connectCheckBox</a> (QAbstractButton *checkBox, const QString &amp;actionName)</td></tr>
@@ -1269,9 +1255,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>askConfirmation</b> (
 <tr class="memitem:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="aba69096a162791f2a90639b05c0abaf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>messageBox</b> (const QString &amp;title, const QString &amp;message)</td></tr>
 <tr class="separator:aba69096a162791f2a90639b05c0abaf1 inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">askColor</a> ()</td></tr>
-<tr class="memdesc:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called by a connected QToolButton with a color background.  <a href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b">More...</a><br /></td></tr>
-<tr class="separator:a5ef9b994a4c7565bcc6d8a9ccaa85f0b inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="a80fb8e43b2ea5d4a74f815bb0723d1fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#a80fb8e43b2ea5d4a74f815bb0723d1fd">enableKineticScrolling</a> (bool b)</td></tr>
 <tr class="memdesc:a80fb8e43b2ea5d4a74f815bb0723d1fd inherit pro_slots_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable kinetic scrolling. This should be connected to <a class="el" href="classStelApp.html" title="Singleton main Stellarium application class.">StelApp</a>'s <a class="el" href="classStelGui.html" title="Main class for the GUI based on QGraphicView.">StelGui</a> signal flagUseKineticScrollingChanged. <br /></td></tr>
@@ -1287,10 +1270,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ada9ae9c079ed54a950343c92b2d1b715 inherit pro_slots_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="ada9ae9c079ed54a950343c92b2d1b715"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updateNightModeProperty</b> (bool n)</td></tr>
 <tr class="separator:ada9ae9c079ed54a950343c92b2d1b715 inherit pro_slots_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classStelDialog"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classStelDialog')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classStelDialog.html">StelDialog</a></td></tr>
-<tr class="memitem:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">connectColorButton</a> (QToolButton *button, const QString &amp;propertyName, const QString &amp;iniName, const QString &amp;moduleName=&quot;&quot;)</td></tr>
-<tr class="memdesc:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare a QToolButton so that it can receive and handle <a class="el" href="classStelDialog.html#a5ef9b994a4c7565bcc6d8a9ccaa85f0b" title="To be called by a connected QToolButton with a color background.">askColor()</a> connections properly.  <a href="classStelDialog.html#aeabd2bf2e1dc0228ebfb8d6704173cae">More...</a><br /></td></tr>
-<tr class="separator:aeabd2bf2e1dc0228ebfb8d6704173cae inherit pro_methods_classStelDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classStelDialog"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classStelDialog')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classStelDialog.html">StelDialog</a></td></tr>
 <tr class="memitem:affed9a4db21c26a7f584048a46b3008e inherit pro_static_methods_classStelDialog"><td class="memItemLeft" align="right" valign="top"><a id="affed9a4db21c26a7f584048a46b3008e"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelDialog.html#affed9a4db21c26a7f584048a46b3008e">connectCheckBox</a> (QAbstractButton *checkBox, const QString &amp;actionName)</td></tr>
@@ -2118,9 +2097,9 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 <tr class="memitem:ad0fb80968b7df246a529e3e9d572af62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#ad0fb80968b7df246a529e3e9d572af62">setNewTleElements</a> (const QString &amp;tle1, const QString &amp;tle2)</td></tr>
 <tr class="memdesc:ad0fb80968b7df246a529e3e9d572af62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new tleElements.  <a href="group__satellites.html#ad0fb80968b7df246a529e3e9d572af62">More...</a><br /></td></tr>
 <tr class="separator:ad0fb80968b7df246a529e3e9d572af62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7118796418ee1b074dc30635d2cdef6c"><td class="memItemLeft" align="right" valign="top"><a id="a7118796418ee1b074dc30635d2cdef6c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (double deltaTime)</td></tr>
-<tr class="separator:a7118796418ee1b074dc30635d2cdef6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe493e6d6d33cf3f36ee9d94103245fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#afe493e6d6d33cf3f36ee9d94103245fb">update</a> (const <a class="el" href="classStelCore.html">StelCore</a> *core, const double JD)</td></tr>
+<tr class="memdesc:afe493e6d6d33cf3f36ee9d94103245fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate faders, new position  <a href="group__satellites.html#afe493e6d6d33cf3f36ee9d94103245fb">More...</a><br /></td></tr>
+<tr class="separator:afe493e6d6d33cf3f36ee9d94103245fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3442133385c3eca5d194ab52c457268e"><td class="memItemLeft" align="right" valign="top"><a id="a3442133385c3eca5d194ab52c457268e"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>getDoppler</b> (double freq) const</td></tr>
 <tr class="separator:a3442133385c3eca5d194ab52c457268e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2151,9 +2130,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#ac56636334efc3337f1f02a14da286156">calculateIlluminatedFraction</a> () const</td></tr>
 <tr class="memdesc:ac56636334efc3337f1f02a14da286156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of illuminated fraction of the satellite. <br /></td></tr>
 <tr class="separator:ac56636334efc3337f1f02a14da286156"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acafc911f165affa1349214dfd083938a"><td class="memItemLeft" align="right" valign="top"><a id="acafc911f165affa1349214dfd083938a"></a>
-<a class="el" href="classVector4.html">Vec4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#acafc911f165affa1349214dfd083938a">getUmbraData</a> ()</td></tr>
-<tr class="memdesc:acafc911f165affa1349214dfd083938a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get radii and geocentric distances of shadow circles in km Vec4d(umbraDistance, umbraRadius, penumbraDistance, penumbraRadius);. <br /></td></tr>
+<tr class="memitem:acafc911f165affa1349214dfd083938a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector4.html">Vec4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#acafc911f165affa1349214dfd083938a">getUmbraData</a> ()</td></tr>
+<tr class="memdesc:acafc911f165affa1349214dfd083938a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get radii and geocentric antisolar distances of shadow circles in km from the geocenter.  <a href="group__satellites.html#acafc911f165affa1349214dfd083938a">More...</a><br /></td></tr>
 <tr class="separator:acafc911f165affa1349214dfd083938a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa44d8b51e3e059485b5f7e354e0aba0"><td class="memItemLeft" align="right" valign="top"><a id="afa44d8b51e3e059485b5f7e354e0aba0"></a>
 QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#afa44d8b51e3e059485b5f7e354e0aba0">getOperationalStatus</a> () const</td></tr>
@@ -2163,12 +2141,12 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 void&#160;</td><td class="memItemRight" valign="bottom"><b>recomputeSatData</b> ()</td></tr>
 <tr class="separator:a49d2635450898a04463668634f947b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classStelObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStelObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStelObject.html">StelObject</a></td></tr>
-<tr class="memitem:ac875514ac2bf8aff56598a4d1cd868e4 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSphericalRegionP.html">SphericalRegionP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#ac875514ac2bf8aff56598a4d1cd868e4">getRegion</a> () const Q_DECL_OVERRIDE</td></tr>
-<tr class="memdesc:ac875514ac2bf8aff56598a4d1cd868e4 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default implementation of the getRegion method.  <a href="classStelObject.html#ac875514ac2bf8aff56598a4d1cd868e4">More...</a><br /></td></tr>
-<tr class="separator:ac875514ac2bf8aff56598a4d1cd868e4 inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc7691bc5d4c6c4a854264c817e3b933 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classVector3.html">Vec3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#adc7691bc5d4c6c4a854264c817e3b933">getPointInRegion</a> () const Q_DECL_OVERRIDE</td></tr>
-<tr class="memdesc:adc7691bc5d4c6c4a854264c817e3b933 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default implementation of the getPointInRegion method.  <a href="classStelObject.html#adc7691bc5d4c6c4a854264c817e3b933">More...</a><br /></td></tr>
-<tr class="separator:adc7691bc5d4c6c4a854264c817e3b933 inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0775c8610cb47dc4cdac8bfb6136752 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSphericalRegionP.html">SphericalRegionP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#ad0775c8610cb47dc4cdac8bfb6136752">getRegion</a> () const override</td></tr>
+<tr class="memdesc:ad0775c8610cb47dc4cdac8bfb6136752 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default implementation of the getRegion method.  <a href="classStelObject.html#ad0775c8610cb47dc4cdac8bfb6136752">More...</a><br /></td></tr>
+<tr class="separator:ad0775c8610cb47dc4cdac8bfb6136752 inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8c048d80b8115db74774727b90e57f inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3.html">Vec3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#adf8c048d80b8115db74774727b90e57f">getPointInRegion</a> () const override</td></tr>
+<tr class="memdesc:adf8c048d80b8115db74774727b90e57f inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default implementation of the getPointInRegion method.  <a href="classStelObject.html#adf8c048d80b8115db74774727b90e57f">More...</a><br /></td></tr>
+<tr class="separator:adf8c048d80b8115db74774727b90e57f inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0307144a6bd5b85e5c69eac7d0337b86 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top"><a id="a0307144a6bd5b85e5c69eac7d0337b86"></a>
 <a class="el" href="classVector3.html">Vec3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#a0307144a6bd5b85e5c69eac7d0337b86">getEquinoxEquatorialPos</a> (const <a class="el" href="classStelCore.html">StelCore</a> *core) const</td></tr>
 <tr class="memdesc:a0307144a6bd5b85e5c69eac7d0337b86 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get observer-centered equatorial coordinate at the current equinox The frame has its Z axis at the planet's current rotation axis At time 2000-01-01 this frame is almost the same as J2000, but ONLY if the observer is on earth. <br /></td></tr>
@@ -2217,9 +2195,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <tr class="memitem:ad4711214f065399f7418e0c976946ea3 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classVector4.html">Vec4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#ad4711214f065399f7418e0c976946ea3">getRTSTime</a> (const <a class="el" href="classStelCore.html">StelCore</a> *core, const double altitude=0.) const</td></tr>
 <tr class="memdesc:ad4711214f065399f7418e0c976946ea3 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute time of rise, transit and set for celestial object for current location.  <a href="classStelObject.html#ad4711214f065399f7418e0c976946ea3">More...</a><br /></td></tr>
 <tr class="separator:ad4711214f065399f7418e0c976946ea3 inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85e2cc30d876cd5afacb3fe199dbad95 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#a85e2cc30d876cd5afacb3fe199dbad95">getVMagnitudeWithExtinction</a> (const <a class="el" href="classStelCore.html">StelCore</a> *core) const</td></tr>
-<tr class="memdesc:a85e2cc30d876cd5afacb3fe199dbad95 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return object's apparent V magnitude as seen from observer including extinction.  <a href="classStelObject.html#a85e2cc30d876cd5afacb3fe199dbad95">More...</a><br /></td></tr>
-<tr class="separator:a85e2cc30d876cd5afacb3fe199dbad95 inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d70a9c0951fbe6e98bbc7690993ce3 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#a53d70a9c0951fbe6e98bbc7690993ce3">getVMagnitudeWithExtinction</a> (const <a class="el" href="classStelCore.html">StelCore</a> *core, const float knownVMag=-1000.f) const</td></tr>
+<tr class="memdesc:a53d70a9c0951fbe6e98bbc7690993ce3 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return object's apparent V magnitude as seen from observer including extinction.  <a href="classStelObject.html#a53d70a9c0951fbe6e98bbc7690993ce3">More...</a><br /></td></tr>
+<tr class="separator:a53d70a9c0951fbe6e98bbc7690993ce3 inherit pub_methods_classStelObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac53c60ca5d6527c6c2e3581f108b69f3 inherit pub_methods_classStelObject"><td class="memItemLeft" align="right" valign="top"><a id="ac53c60ca5d6527c6c2e3581f108b69f3"></a>
 virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelObject.html#ac53c60ca5d6527c6c2e3581f108b69f3">getCloseViewFov</a> (const <a class="el" href="classStelCore.html">StelCore</a> *) const</td></tr>
 <tr class="memdesc:ac53c60ca5d6527c6c2e3581f108b69f3 inherit pub_methods_classStelObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the best FOV in degree to use for a close view of the object. <br /></td></tr>
@@ -2238,6 +2216,9 @@ virtual double&#160;</td><td class="memItemRight" valign="bottom"><b>getParentSa
 <tr class="memitem:a991926517e120557ef0dd52ba987715b"><td class="memItemLeft" align="right" valign="top"><a id="a991926517e120557ef0dd52ba987715b"></a>
 static double&#160;</td><td class="memItemRight" valign="bottom"><b>roundToDp</b> (float n, int dp)</td></tr>
 <tr class="separator:a991926517e120557ef0dd52ba987715b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d34c7f5f43fd99a0672d7ee0972fe7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classVector4.html">Vec4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#af7d34c7f5f43fd99a0672d7ee0972fe7">getUmbraData</a> (const double rhoE)</td></tr>
+<tr class="memdesc:af7d34c7f5f43fd99a0672d7ee0972fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get radii and geocentric antisolar distances of shadow circles in km for a hypothetical object in distance rhoE [km] from the geocenter.  <a href="group__satellites.html#af7d34c7f5f43fd99a0672d7ee0972fe7">More...</a><br /></td></tr>
+<tr class="separator:af7d34c7f5f43fd99a0672d7ee0972fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><h3>Static Public Attributes</h3></td></tr>
 <tr class="memitem:ae53f22415cbd5268a1437efdedaa03b5"><td class="memItemLeft" align="right" valign="top"><a id="ae53f22415cbd5268a1437efdedaa03b5"></a>
 static const QString&#160;</td><td class="memItemRight" valign="bottom"><b>SATELLITE_TYPE</b></td></tr>
@@ -2525,6 +2506,62 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="acafc911f165affa1349214dfd083938a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acafc911f165affa1349214dfd083938a">&#9670;&nbsp;</a></span>getUmbraData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVector4.html">Vec4d</a> Satellite::getUmbraData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get radii and geocentric antisolar distances of shadow circles in km from the geocenter. </p>
+<dl class="section return"><dt>Returns</dt><dd>Vec4d(umbraDistance, umbraRadius, penumbraDistance, penumbraRadius); umbraDistance : geocentric distance (km) of the umbra circle centre in the antisolar direction umbraRadius : radius (km) of the umbra circle penumbraDistance : geocentric distance (km) of the penumbra circle in the antisolar direction penumbraRadius : radius (km) of the penumbra circle </dd></dl>
+
+</div>
+</div>
+<a id="af7d34c7f5f43fd99a0672d7ee0972fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d34c7f5f43fd99a0672d7ee0972fe7">&#9670;&nbsp;</a></span>getUmbraData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classVector4.html">Vec4d</a> Satellite::getUmbraData </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>rhoE</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get radii and geocentric antisolar distances of shadow circles in km for a hypothetical object in distance rhoE [km] from the geocenter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhoE</td><td>distance [km] from the geocenter. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vec4d(umbraDistance, umbraRadius, penumbraDistance, penumbraRadius); umbraDistance : geocentric distance (km) of the umbra circle centre in the antisolar direction umbraRadius : radius (km) of the umbra circle penumbraDistance : geocentric distance (km) of the penumbra circle in the antisolar direction penumbraRadius : radius (km) of the penumbra circle </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>To gain data for an object in dist_km above (spherical) earth, use rhoE=earth-&gt;getEquatorialRadius()*AU+dist_km; </dd></dl>
+
+</div>
+</div>
 <a id="aba5b0ca05b8c107295a51fd6ff389192"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba5b0ca05b8c107295a51fd6ff389192">&#9670;&nbsp;</a></span>operator&lt;()</h2>
 
@@ -2574,6 +2611,43 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Set new tleElements. </p>
 <p>This assumes the designation is already set, populates the tleElements values and configures internal orbit parameters. </p>
+
+</div>
+</div>
+<a id="afe493e6d6d33cf3f36ee9d94103245fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe493e6d6d33cf3f36ee9d94103245fb">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Satellite::update </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classStelCore.html">StelCore</a> *&#160;</td>
+          <td class="paramname"><em>core</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>JD</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>calculate faders, new position </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">core</td><td>current <a class="el" href="classStelCore.html" title="Main class for Stellarium core processing.">StelCore</a> </td></tr>
+    <tr><td class="paramname">JD</td><td>Julian day, UTC. (<a class="el" href="group__satellites.html#classSatellites" title="Main class of the Satellites plugin.">Satellites</a> don't use JDE!) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2771,12 +2845,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>recalculateOrbitLines
 <tr class="memitem:a2b2cc10d055508857171f27dbfd3d57f"><td class="memItemLeft" align="right" valign="top"><a id="a2b2cc10d055508857171f27dbfd3d57f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>getFlagUmbraVisible</b> ()</td></tr>
 <tr class="separator:a2b2cc10d055508857171f27dbfd3d57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8168a1634021b5eaff04afe43b401079"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a8168a1634021b5eaff04afe43b401079">setFlagUmbraAtFixedDistance</a> (bool b)</td></tr>
-<tr class="memdesc:a8168a1634021b5eaff04afe43b401079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether ring of Earth's umbra should be displayed at fixed distance.  <a href="group__satellites.html#a8168a1634021b5eaff04afe43b401079">More...</a><br /></td></tr>
-<tr class="separator:a8168a1634021b5eaff04afe43b401079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af418a7bbdb602991ea562d02d65201c1"><td class="memItemLeft" align="right" valign="top"><a id="af418a7bbdb602991ea562d02d65201c1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getFlagUmbraAtFixedDistance</b> ()</td></tr>
-<tr class="separator:af418a7bbdb602991ea562d02d65201c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13c73af48ef238c388cf5f8a276f270b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a13c73af48ef238c388cf5f8a276f270b">setFlagUmbraAtFixedAltitude</a> (bool b)</td></tr>
+<tr class="memdesc:a13c73af48ef238c388cf5f8a276f270b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether ring of Earth's umbra should be displayed at given satellite altitude.  <a href="group__satellites.html#a13c73af48ef238c388cf5f8a276f270b">More...</a><br /></td></tr>
+<tr class="separator:a13c73af48ef238c388cf5f8a276f270b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49da8c2a67cd33e890fb9678ff3d770"><td class="memItemLeft" align="right" valign="top"><a id="aa49da8c2a67cd33e890fb9678ff3d770"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>getFlagUmbraAtFixedAltitude</b> ()</td></tr>
+<tr class="separator:aa49da8c2a67cd33e890fb9678ff3d770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a4ecfa373ae58e76da1ee49c140d215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3.html">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a5a4ecfa373ae58e76da1ee49c140d215">getUmbraColor</a> ()</td></tr>
 <tr class="memdesc:a5a4ecfa373ae58e76da1ee49c140d215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get color for ring of Earth's umbra.  <a href="group__satellites.html#a5a4ecfa373ae58e76da1ee49c140d215">More...</a><br /></td></tr>
 <tr class="separator:a5a4ecfa373ae58e76da1ee49c140d215"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2784,13 +2858,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>getFlagUmbraAtFixedDi
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a8350badb5aefa1c14539ea6a59d298bf">setUmbraColor</a> (const <a class="el" href="classVector3.html">Vec3f</a> &amp;c)</td></tr>
 <tr class="memdesc:a8350badb5aefa1c14539ea6a59d298bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set color for ring of Earth's umbra. <br /></td></tr>
 <tr class="separator:a8350badb5aefa1c14539ea6a59d298bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67cdc0420640ab9d553d8f0dbd8e1256"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a67cdc0420640ab9d553d8f0dbd8e1256">getUmbraDistance</a> ()</td></tr>
-<tr class="memdesc:a67cdc0420640ab9d553d8f0dbd8e1256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the fixed distance for center of visualized Earth's umbra.  <a href="group__satellites.html#a67cdc0420640ab9d553d8f0dbd8e1256">More...</a><br /></td></tr>
-<tr class="separator:a67cdc0420640ab9d553d8f0dbd8e1256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac846ad3468afd5076d8582671984ccd4"><td class="memItemLeft" align="right" valign="top"><a id="ac846ad3468afd5076d8582671984ccd4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#ac846ad3468afd5076d8582671984ccd4">setUmbraDistance</a> (double d)</td></tr>
-<tr class="memdesc:ac846ad3468afd5076d8582671984ccd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the fixed distance for center of visualized Earth's umbra. <br /></td></tr>
-<tr class="separator:ac846ad3468afd5076d8582671984ccd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29354000b51104bf0fed413ea55054b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a29354000b51104bf0fed413ea55054b3">getUmbraAltitude</a> ()</td></tr>
+<tr class="memdesc:a29354000b51104bf0fed413ea55054b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the fixed distance for center of visualized Earth's umbra.  <a href="group__satellites.html#a29354000b51104bf0fed413ea55054b3">More...</a><br /></td></tr>
+<tr class="separator:a29354000b51104bf0fed413ea55054b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b8fffbf83b2414ebce9964462d592a"><td class="memItemLeft" align="right" valign="top"><a id="ab9b8fffbf83b2414ebce9964462d592a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#ab9b8fffbf83b2414ebce9964462d592a">setUmbraAltitude</a> (double d)</td></tr>
+<tr class="memdesc:ab9b8fffbf83b2414ebce9964462d592a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the fixed distance for center of visualized Earth's umbra. <br /></td></tr>
+<tr class="separator:ab9b8fffbf83b2414ebce9964462d592a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a8220108021ffbcfe083ccd0c82e236"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a3a8220108021ffbcfe083ccd0c82e236">setFlagPenumbraVisible</a> (bool b)</td></tr>
 <tr class="memdesc:a3a8220108021ffbcfe083ccd0c82e236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether ring of Earth's penumbra should be displayed.  <a href="group__satellites.html#a3a8220108021ffbcfe083ccd0c82e236">More...</a><br /></td></tr>
 <tr class="separator:a3a8220108021ffbcfe083ccd0c82e236"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2804,13 +2878,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>getFlagPenumbraVisibl
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a4ea8fee6fe13eb0016ffb33c954db7f3">setPenumbraColor</a> (const <a class="el" href="classVector3.html">Vec3f</a> &amp;c)</td></tr>
 <tr class="memdesc:a4ea8fee6fe13eb0016ffb33c954db7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set color for ring of Earth's penumbra. <br /></td></tr>
 <tr class="separator:a4ea8fee6fe13eb0016ffb33c954db7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a547abbd907e97f320c7777600df7e707"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a547abbd907e97f320c7777600df7e707">displayMessage</a> (const QString &amp;message, const QString hexColor=&quot;#999999&quot;)</td></tr>
-<tr class="memdesc:a547abbd907e97f320c7777600df7e707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a message on the screen for a few seconds.  <a href="group__satellites.html#a547abbd907e97f320c7777600df7e707">More...</a><br /></td></tr>
-<tr class="separator:a547abbd907e97f320c7777600df7e707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d2193bbb8a2c351fd2a22c2f947e28b"><td class="memItemLeft" align="right" valign="top"><a id="a4d2193bbb8a2c351fd2a22c2f947e28b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a4d2193bbb8a2c351fd2a22c2f947e28b">saveCatalog</a> (QString path=QString())</td></tr>
-<tr class="memdesc:a4d2193bbb8a2c351fd2a22c2f947e28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the current satellite catalog to disk. <br /></td></tr>
-<tr class="separator:a4d2193bbb8a2c351fd2a22c2f947e28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf40dd2d84443f5d14aff7473277d42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a3cf40dd2d84443f5d14aff7473277d42">displayMessage</a> (const QString &amp;message, const QString &amp;hexColor=&quot;#999999&quot;)</td></tr>
+<tr class="memdesc:a3cf40dd2d84443f5d14aff7473277d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a message on the screen for a few seconds.  <a href="group__satellites.html#a3cf40dd2d84443f5d14aff7473277d42">More...</a><br /></td></tr>
+<tr class="separator:a3cf40dd2d84443f5d14aff7473277d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa31641bcbaaad0aa56001e2fb1dd82"><td class="memItemLeft" align="right" valign="top"><a id="a1fa31641bcbaaad0aa56001e2fb1dd82"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a1fa31641bcbaaad0aa56001e2fb1dd82">saveCatalog</a> (const QString &amp;path=QString())</td></tr>
+<tr class="memdesc:a1fa31641bcbaaad0aa56001e2fb1dd82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the current satellite catalog to disk. <br /></td></tr>
+<tr class="separator:a1fa31641bcbaaad0aa56001e2fb1dd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf353d91d38f41070c72ad6519a42ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#abf353d91d38f41070c72ad6519a42ced">setFlagCFKnownStdMagnitude</a> (bool b)</td></tr>
 <tr class="memdesc:abf353d91d38f41070c72ad6519a42ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether custom filter 'known standard magnitude' enabled.  <a href="group__satellites.html#abf353d91d38f41070c72ad6519a42ced">More...</a><br /></td></tr>
 <tr class="separator:abf353d91d38f41070c72ad6519a42ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3025,15 +3099,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>transitSatelliteColor
 <tr class="memitem:aa6eb6b9f1aedf462d63a4a81acb34553"><td class="memItemLeft" align="right" valign="top"><a id="aa6eb6b9f1aedf462d63a4a81acb34553"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flagUmbraVisibleChanged</b> (bool b)</td></tr>
 <tr class="separator:aa6eb6b9f1aedf462d63a4a81acb34553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b69f2cc6f0da04fb7a1a0d40b56f21"><td class="memItemLeft" align="right" valign="top"><a id="ab5b69f2cc6f0da04fb7a1a0d40b56f21"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>flagUmbraAtFixedDistanceChanged</b> (bool b)</td></tr>
-<tr class="separator:ab5b69f2cc6f0da04fb7a1a0d40b56f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6316fe7a33430c224d63057a5e3e149f"><td class="memItemLeft" align="right" valign="top"><a id="a6316fe7a33430c224d63057a5e3e149f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>flagUmbraAtFixedAltitudeChanged</b> (bool b)</td></tr>
+<tr class="separator:a6316fe7a33430c224d63057a5e3e149f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242a5ef896b18778157cd37dd7d900fe"><td class="memItemLeft" align="right" valign="top"><a id="a242a5ef896b18778157cd37dd7d900fe"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>umbraColorChanged</b> (<a class="el" href="classVector3.html">Vec3f</a>)</td></tr>
 <tr class="separator:a242a5ef896b18778157cd37dd7d900fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb1da9eb13b1ecf9b8684f5aba81ee5a"><td class="memItemLeft" align="right" valign="top"><a id="afb1da9eb13b1ecf9b8684f5aba81ee5a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>umbraDistanceChanged</b> (double d)</td></tr>
-<tr class="separator:afb1da9eb13b1ecf9b8684f5aba81ee5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c99ea5ed96a822880e00e6bbd9a52c"><td class="memItemLeft" align="right" valign="top"><a id="ac1c99ea5ed96a822880e00e6bbd9a52c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>umbraAltitudeChanged</b> (double d)</td></tr>
+<tr class="separator:ac1c99ea5ed96a822880e00e6bbd9a52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ce9eacb44a8e29c5a775c79a38d677"><td class="memItemLeft" align="right" valign="top"><a id="a07ce9eacb44a8e29c5a775c79a38d677"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flagPenumbraVisibleChanged</b> (bool b)</td></tr>
 <tr class="separator:a07ce9eacb44a8e29c5a775c79a38d677"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3130,9 +3204,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>maxVFMagnitudeChanged
 <tr class="memitem:a72422080e012908ea546b1436ec4270a"><td class="memItemLeft" align="right" valign="top"><a id="a72422080e012908ea546b1436ec4270a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>satGroupVisibleChanged</b> ()</td></tr>
 <tr class="separator:a72422080e012908ea546b1436ec4270a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada554bad25d01bbfec640e6d9c337e92"><td class="memItemLeft" align="right" valign="top"><a id="ada554bad25d01bbfec640e6d9c337e92"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>satSelectionChanged</b> (QString satID)</td></tr>
-<tr class="separator:ada554bad25d01bbfec640e6d9c337e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54c5e840bbd29ca6d0a9d8ff510a188"><td class="memItemLeft" align="right" valign="top"><a id="aa54c5e840bbd29ca6d0a9d8ff510a188"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>satSelectionChanged</b> (const QString &amp;satID)</td></tr>
+<tr class="separator:aa54c5e840bbd29ca6d0a9d8ff510a188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><h3>Public Member Functions</h3></td></tr>
 <tr class="memitem:a9644f743e0c58300acd1c8f6bf7d4566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a9644f743e0c58300acd1c8f6bf7d4566">init</a> () override</td></tr>
 <tr class="memdesc:a9644f743e0c58300acd1c8f6bf7d4566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize itself.  <a href="group__satellites.html#a9644f743e0c58300acd1c8f6bf7d4566">More...</a><br /></td></tr>
@@ -3250,16 +3324,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 <tr class="memitem:af888c055694a35417f40891cd159f051"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#af888c055694a35417f40891cd159f051">getTleSources</a> (void) const</td></tr>
 <tr class="memdesc:af888c055694a35417f40891cd159f051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of URLs which are sources of TLE data.  <a href="group__satellites.html#af888c055694a35417f40891cd159f051">More...</a><br /></td></tr>
 <tr class="separator:af888c055694a35417f40891cd159f051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab49eb54d9a5717c92bdf4ff88a11e462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#ab49eb54d9a5717c92bdf4ff88a11e462">setTleSources</a> (QStringList tleSources)</td></tr>
-<tr class="memdesc:ab49eb54d9a5717c92bdf4ff88a11e462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the list of URLs which are sources of TLE data.  <a href="group__satellites.html#ab49eb54d9a5717c92bdf4ff88a11e462">More...</a><br /></td></tr>
-<tr class="separator:ab49eb54d9a5717c92bdf4ff88a11e462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2190a736f2d0e33333728aa4f3cbcd02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a2190a736f2d0e33333728aa4f3cbcd02">setTleSources</a> (const QStringList &amp;tleSources)</td></tr>
+<tr class="memdesc:a2190a736f2d0e33333728aa4f3cbcd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the list of URLs which are sources of TLE data.  <a href="group__satellites.html#a2190a736f2d0e33333728aa4f3cbcd02">More...</a><br /></td></tr>
+<tr class="separator:a2190a736f2d0e33333728aa4f3cbcd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b0a535b1d8b77410616ff21d103a3f"><td class="memItemLeft" align="right" valign="top"><a id="a82b0a535b1d8b77410616ff21d103a3f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a82b0a535b1d8b77410616ff21d103a3f">saveTleSources</a> (const QStringList &amp;urls)</td></tr>
 <tr class="memdesc:a82b0a535b1d8b77410616ff21d103a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current list of update URLs to the configuration file. <br /></td></tr>
 <tr class="separator:a82b0a535b1d8b77410616ff21d103a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a458695ca33ff5040318c9816d86419bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a458695ca33ff5040318c9816d86419bb">updateFromFiles</a> (QStringList paths, bool deleteFiles=false)</td></tr>
-<tr class="memdesc:a458695ca33ff5040318c9816d86419bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads update file(s) in celestrak's .txt format, and updates the TLE elements for existing satellites from them.  <a href="group__satellites.html#a458695ca33ff5040318c9816d86419bb">More...</a><br /></td></tr>
-<tr class="separator:a458695ca33ff5040318c9816d86419bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af401d433ec40aa4df126af2a5c36d5d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#af401d433ec40aa4df126af2a5c36d5d1">updateFromFiles</a> (const QStringList &amp;paths, bool deleteFiles=false)</td></tr>
+<tr class="memdesc:af401d433ec40aa4df126af2a5c36d5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads update file(s) in celestrak's .txt format, and updates the TLE elements for existing satellites from them.  <a href="group__satellites.html#af401d433ec40aa4df126af2a5c36d5d1">More...</a><br /></td></tr>
+<tr class="separator:af401d433ec40aa4df126af2a5c36d5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a420742e9762c50fc8b33fb92b5cf7592"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a420742e9762c50fc8b33fb92b5cf7592">updateSatellites</a> (TleDataHash &amp;newTleSets)</td></tr>
 <tr class="memdesc:a420742e9762c50fc8b33fb92b5cf7592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the loaded satellite collection from the provided data.  <a href="group__satellites.html#a420742e9762c50fc8b33fb92b5cf7592">More...</a><br /></td></tr>
 <tr class="separator:a420742e9762c50fc8b33fb92b5cf7592"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3364,9 +3438,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tleEpochAgeDays</b></t
 <tr class="memitem:aefb15a644344e778bdcbe5a0bee15801"><td class="memItemLeft" align="right" valign="top"><a id="aefb15a644344e778bdcbe5a0bee15801"></a>
 <a class="el" href="classVector3.html">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transitSatelliteColor</b></td></tr>
 <tr class="separator:aefb15a644344e778bdcbe5a0bee15801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a529d58b48e816233a48ad76e1f32653a"><td class="memItemLeft" align="right" valign="top"><a id="a529d58b48e816233a48ad76e1f32653a"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>umbraDistance</b></td></tr>
-<tr class="separator:a529d58b48e816233a48ad76e1f32653a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8061f992b37315f85c0e426b8f2f3cf6"><td class="memItemLeft" align="right" valign="top"><a id="a8061f992b37315f85c0e426b8f2f3cf6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>umbraAltitude</b></td></tr>
+<tr class="separator:a8061f992b37315f85c0e426b8f2f3cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb60fb9c72209c8b25a68cb748064f30"><td class="memItemLeft" align="right" valign="top"><a id="afb60fb9c72209c8b25a68cb748064f30"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>flagCFKnownStdMagnitude</b></td></tr>
 <tr class="separator:afb60fb9c72209c8b25a68cb748064f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3462,10 +3536,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>updateFrequencyHours</
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a5d09875eb5d3407289e9d1e252b37e2d">flagUmbraVisible</a></td></tr>
 <tr class="memdesc:a5d09875eb5d3407289e9d1e252b37e2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag enabling visualization the Earth's umbra. <br /></td></tr>
 <tr class="separator:a5d09875eb5d3407289e9d1e252b37e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a7f6110aa3be1496b6d2692aa904aa"><td class="memItemLeft" align="right" valign="top"><a id="a90a7f6110aa3be1496b6d2692aa904aa"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a90a7f6110aa3be1496b6d2692aa904aa">flagUmbraAtFixedDistance</a></td></tr>
-<tr class="memdesc:a90a7f6110aa3be1496b6d2692aa904aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag enabling visualization the Earth's umbra at fixed distance V23.1: This had to be disabled until computation will be implemented correctly. <br /></td></tr>
-<tr class="separator:a90a7f6110aa3be1496b6d2692aa904aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a7bf52234abc9ff2e2b59326ddcef1"><td class="memItemLeft" align="right" valign="top"><a id="a53a7bf52234abc9ff2e2b59326ddcef1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__satellites.html#a53a7bf52234abc9ff2e2b59326ddcef1">flagUmbraAtFixedAltitude</a></td></tr>
+<tr class="memdesc:a53a7bf52234abc9ff2e2b59326ddcef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag enabling visualization the Earth's umbra at a given altitude above a spherical Earth. <br /></td></tr>
+<tr class="separator:a53a7bf52234abc9ff2e2b59326ddcef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a455305b0377d5e377459e3c59427290d"><td class="memItemLeft" align="right" valign="top"><a id="a455305b0377d5e377459e3c59427290d"></a>
 <a class="el" href="classVector3.html">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>umbraColor</b></td></tr>
 <tr class="separator:a455305b0377d5e377459e3c59427290d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3631,8 +3705,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a547abbd907e97f320c7777600df7e707"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a547abbd907e97f320c7777600df7e707">&#9670;&nbsp;</a></span>displayMessage</h2>
+<a id="a3cf40dd2d84443f5d14aff7473277d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf40dd2d84443f5d14aff7473277d42">&#9670;&nbsp;</a></span>displayMessage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3649,7 +3723,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString&#160;</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>hexColor</em> = <code>&quot;#999999&quot;</code>&#160;</td>
         </tr>
         <tr>
@@ -3989,6 +4063,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a29354000b51104bf0fed413ea55054b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29354000b51104bf0fed413ea55054b3">&#9670;&nbsp;</a></span>getUmbraAltitude</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Satellites::getUmbraAltitude </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the fixed distance for center of visualized Earth's umbra. </p>
+<dl class="section return"><dt>Returns</dt><dd>distance, km </dd></dl>
+
+</div>
+</div>
 <a id="a5a4ecfa373ae58e76da1ee49c140d215"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a4ecfa373ae58e76da1ee49c140d215">&#9670;&nbsp;</a></span>getUmbraColor</h2>
 
@@ -4014,34 +4116,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get color for ring of Earth's umbra. </p>
 <dl class="section return"><dt>Returns</dt><dd>color </dd></dl>
-
-</div>
-</div>
-<a id="a67cdc0420640ab9d553d8f0dbd8e1256"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67cdc0420640ab9d553d8f0dbd8e1256">&#9670;&nbsp;</a></span>getUmbraDistance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Satellites::getUmbraDistance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the fixed distance for center of visualized Earth's umbra. </p>
-<dl class="section return"><dt>Returns</dt><dd>distance, km </dd></dl>
 
 </div>
 </div>
@@ -4908,8 +4982,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8168a1634021b5eaff04afe43b401079"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8168a1634021b5eaff04afe43b401079">&#9670;&nbsp;</a></span>setFlagUmbraAtFixedDistance</h2>
+<a id="a13c73af48ef238c388cf5f8a276f270b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c73af48ef238c388cf5f8a276f270b">&#9670;&nbsp;</a></span>setFlagUmbraAtFixedAltitude</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4918,7 +4992,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Satellites::setFlagUmbraAtFixedDistance </td>
+          <td class="memname">void Satellites::setFlagUmbraAtFixedAltitude </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
@@ -4932,8 +5006,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set whether ring of Earth's umbra should be displayed at fixed distance. </p>
-<p>Emits <a class="el" href="group__satellites.html#ac44a49242b0a5953a8b3fcc11ac18f39" title="Emitted when some of the plugin settings have been changed.">settingsChanged()</a> if the value changes. V23.1: For now this had to be disabled/set to false. </p>
+<p>Set whether ring of Earth's umbra should be displayed at given satellite altitude. </p>
+<p>Emits <a class="el" href="group__satellites.html#ac44a49242b0a5953a8b3fcc11ac18f39" title="Emitted when some of the plugin settings have been changed.">settingsChanged()</a> if the value changes. </p>
 
 </div>
 </div>
@@ -5376,8 +5450,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab49eb54d9a5717c92bdf4ff88a11e462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab49eb54d9a5717c92bdf4ff88a11e462">&#9670;&nbsp;</a></span>setTleSources()</h2>
+<a id="a2190a736f2d0e33333728aa4f3cbcd02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2190a736f2d0e33333728aa4f3cbcd02">&#9670;&nbsp;</a></span>setTleSources()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5385,7 +5459,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Satellites::setTleSources </td>
           <td>(</td>
-          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
           <td class="paramname"><em>tleSources</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5561,8 +5635,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a458695ca33ff5040318c9816d86419bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a458695ca33ff5040318c9816d86419bb">&#9670;&nbsp;</a></span>updateFromFiles()</h2>
+<a id="af401d433ec40aa4df126af2a5c36d5d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af401d433ec40aa4df126af2a5c36d5d1">&#9670;&nbsp;</a></span>updateFromFiles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5570,7 +5644,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Satellites::updateFromFiles </td>
           <td>(</td>
-          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
           <td class="paramname"><em>paths</em>, </td>
         </tr>
         <tr>
@@ -5622,7 +5696,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Start an Internet update. </p>
-<p>This method starts the process of an Internet update: it tries to download TLE lists from online resources and then use them to update the orbital data (and names, etc.) of the included satellites. This only initialized the download. The rest of the work is done by saveDownloadedUpdate() and <a class="el" href="group__satellites.html#a420742e9762c50fc8b33fb92b5cf7592" title="Updates the loaded satellite collection from the provided data.">updateSatellites()</a>. Update sources are described in updateUrls (see for accessors details). If autoAddEnabled is true when this function is called, new satellites in the chosen update sources will be added during the update. If autoRemoveEnabled is true when this function is called, any existing satellite that can't be found in the downloaded update lists will be removed. See <a class="el" href="group__satellites.html#a458695ca33ff5040318c9816d86419bb" title="Reads update file(s) in celestrak&#39;s .txt format, and updates the TLE elements for existing satellites...">updateFromFiles()</a> for the other type of update operation. </p>
+<p>This method starts the process of an Internet update: it tries to download TLE lists from online resources and then use them to update the orbital data (and names, etc.) of the included satellites. This only initialized the download. The rest of the work is done by saveDownloadedUpdate() and <a class="el" href="group__satellites.html#a420742e9762c50fc8b33fb92b5cf7592" title="Updates the loaded satellite collection from the provided data.">updateSatellites()</a>. Update sources are described in updateUrls (see for accessors details). If autoAddEnabled is true when this function is called, new satellites in the chosen update sources will be added during the update. If autoRemoveEnabled is true when this function is called, any existing satellite that can't be found in the downloaded update lists will be removed. See <a class="el" href="group__satellites.html#af401d433ec40aa4df126af2a5c36d5d1" title="Reads update file(s) in celestrak&#39;s .txt format, and updates the TLE elements for existing satellites...">updateFromFiles()</a> for the other type of update operation. </p>
 
 </div>
 </div>
@@ -5643,7 +5717,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Updates the loaded satellite collection from the provided data. </p>
-<p>Worker function called by <a class="el" href="group__satellites.html#a458695ca33ff5040318c9816d86419bb" title="Reads update file(s) in celestrak&#39;s .txt format, and updates the TLE elements for existing satellites...">updateFromFiles()</a> and saveDownloadedUpdate(). (Respectively, user-initiated update from file(s) and user- or auto- initiated update from online source(s).) Emits <a class="el" href="group__satellites.html#a966164bfca685b47e36a0106c1b2a377" title="emitted when the update status changes, e.g.">updateStateChanged()</a> and <a class="el" href="group__satellites.html#ad55a399effe79f15064cec717be18270" title="Emitted after an update has run.">tleUpdateComplete()</a>. </p><dl class="section note"><dt>Note</dt><dd>Instead of splitting this method off <a class="el" href="group__satellites.html#a458695ca33ff5040318c9816d86419bb" title="Reads update file(s) in celestrak&#39;s .txt format, and updates the TLE elements for existing satellites...">updateFromFiles()</a> and passing the auto-add flag through data structures, another possibility was to modify updateFromFiles to use the same prefix trick (adding "1," to file paths). I decided against it because I thought it would be more complex. :) &ndash;BM </dd></dl>
+<p>Worker function called by <a class="el" href="group__satellites.html#af401d433ec40aa4df126af2a5c36d5d1" title="Reads update file(s) in celestrak&#39;s .txt format, and updates the TLE elements for existing satellites...">updateFromFiles()</a> and saveDownloadedUpdate(). (Respectively, user-initiated update from file(s) and user- or auto- initiated update from online source(s).) Emits <a class="el" href="group__satellites.html#a966164bfca685b47e36a0106c1b2a377" title="emitted when the update status changes, e.g.">updateStateChanged()</a> and <a class="el" href="group__satellites.html#ad55a399effe79f15064cec717be18270" title="Emitted after an update has run.">tleUpdateComplete()</a>. </p><dl class="section note"><dt>Note</dt><dd>Instead of splitting this method off <a class="el" href="group__satellites.html#af401d433ec40aa4df126af2a5c36d5d1" title="Reads update file(s) in celestrak&#39;s .txt format, and updates the TLE elements for existing satellites...">updateFromFiles()</a> and passing the auto-add flag through data structures, another possibility was to modify updateFromFiles to use the same prefix trick (adding "1," to file paths). I decided against it because I thought it would be more complex. :) &ndash;BM </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">newTleSets</td><td>a hash with satellite IDs as keys; it's modified by the method! </td></tr>
@@ -5719,7 +5793,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 25 2023 12:58:54 for Stellarium by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 22 2024 21:34:54 for Stellarium by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

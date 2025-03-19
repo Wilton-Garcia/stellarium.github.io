@@ -360,7 +360,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setAberrationUniforms
 <tr class="separator:ada4663970d4715fd7a3264a5d43d711b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad110eb5700d4b51936f57baeeda0f8c6"><td class="memItemLeft" align="right" valign="top"><a id="ad110eb5700d4b51936f57baeeda0f8c6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ad110eb5700d4b51936f57baeeda0f8c6">setUseTopocentricCoordinates</a> (bool use)</td></tr>
-<tr class="memdesc:ad110eb5700d4b51936f57baeeda0f8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether you want computation and simulation of nutation (a slight wobble of Earth's axis, just a few arcseconds). <br /></td></tr>
+<tr class="memdesc:ad110eb5700d4b51936f57baeeda0f8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether you want topocentric or planetocentric data. <br /></td></tr>
 <tr class="separator:ad110eb5700d4b51936f57baeeda0f8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a301d7824a074399724f8462fbc67684a"><td class="memItemLeft" align="right" valign="top"><a id="a301d7824a074399724f8462fbc67684a"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a301d7824a074399724f8462fbc67684a">getPresetSkyTime</a> () const</td></tr>
@@ -537,10 +537,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a9b1a70639aba72739fe331c46935adfe">addTropicalYear</a> ()</td></tr>
 <tr class="memdesc:a9b1a70639aba72739fe331c46935adfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one tropical year to the simulation time. <br /></td></tr>
 <tr class="separator:a9b1a70639aba72739fe331c46935adfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f00c7300d8e540b3a553a77275e0f68"><td class="memItemLeft" align="right" valign="top"><a id="a9f00c7300d8e540b3a553a77275e0f68"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a9f00c7300d8e540b3a553a77275e0f68">addCalendricMonth</a> ()</td></tr>
-<tr class="memdesc:a9f00c7300d8e540b3a553a77275e0f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one calendric month to the simulation time. <br /></td></tr>
-<tr class="separator:a9f00c7300d8e540b3a553a77275e0f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5f8ff8c1dceaab74e4c1ed0d2399c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a5b5f8ff8c1dceaab74e4c1ed0d2399c4">addGreatYear</a> ()</td></tr>
+<tr class="memdesc:a5b5f8ff8c1dceaab74e4c1ed0d2399c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one great year Great Year [NASA SP-7, 1965] - the period of one complete cycle of the equinoxes around the ecliptic, about 25,800 years.  <a href="classStelCore.html#a5b5f8ff8c1dceaab74e4c1ed0d2399c4">More...</a><br /></td></tr>
+<tr class="separator:a5b5f8ff8c1dceaab74e4c1ed0d2399c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd035d6c02a972780a1ae500f5e9f3e"><td class="memItemLeft" align="right" valign="top"><a id="a2fd035d6c02a972780a1ae500f5e9f3e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a2fd035d6c02a972780a1ae500f5e9f3e">addCalendarMonth</a> ()</td></tr>
+<tr class="memdesc:a2fd035d6c02a972780a1ae500f5e9f3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one calendar month to the simulation time. <br /></td></tr>
+<tr class="separator:a2fd035d6c02a972780a1ae500f5e9f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b56c4bb44ee40da60f2fe3786357530"><td class="memItemLeft" align="right" valign="top"><a id="a8b56c4bb44ee40da60f2fe3786357530"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a8b56c4bb44ee40da60f2fe3786357530">addCalendarYear</a> ()</td></tr>
+<tr class="memdesc:a8b56c4bb44ee40da60f2fe3786357530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one calendar year to the simulation time. <br /></td></tr>
+<tr class="separator:a8b56c4bb44ee40da60f2fe3786357530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69907a5cc8d7df47bfb5538b49ca2ad1"><td class="memItemLeft" align="right" valign="top"><a id="a69907a5cc8d7df47bfb5538b49ca2ad1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a69907a5cc8d7df47bfb5538b49ca2ad1">addCalendarDecade</a> ()</td></tr>
+<tr class="memdesc:a69907a5cc8d7df47bfb5538b49ca2ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one calendar decade to the simulation time. <br /></td></tr>
+<tr class="separator:a69907a5cc8d7df47bfb5538b49ca2ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4039ab8b4532c73763c11b286e4c4d1a"><td class="memItemLeft" align="right" valign="top"><a id="a4039ab8b4532c73763c11b286e4c4d1a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a4039ab8b4532c73763c11b286e4c4d1a">addCalendarCentury</a> ()</td></tr>
+<tr class="memdesc:a4039ab8b4532c73763c11b286e4c4d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one calendar century to the simulation time. <br /></td></tr>
+<tr class="separator:a4039ab8b4532c73763c11b286e4c4d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33dd3f0137f68a197d6ffa307c3d6b2f"><td class="memItemLeft" align="right" valign="top"><a id="a33dd3f0137f68a197d6ffa307c3d6b2f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a33dd3f0137f68a197d6ffa307c3d6b2f">addJulianYear</a> ()</td></tr>
 <tr class="memdesc:a33dd3f0137f68a197d6ffa307c3d6b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add one Julian year to the simulation time. <br /></td></tr>
@@ -554,63 +569,78 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:af7be4e44aa569072ddc3d698842e6c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46191614b006d7439a02a6f7852e7e09"><td class="memItemLeft" align="right" valign="top"><a id="a46191614b006d7439a02a6f7852e7e09"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a46191614b006d7439a02a6f7852e7e09">subtractSynodicMonth</a> ()</td></tr>
-<tr class="memdesc:a46191614b006d7439a02a6f7852e7e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one synodic month to the simulation time. <br /></td></tr>
+<tr class="memdesc:a46191614b006d7439a02a6f7852e7e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one synodic month from the simulation time. <br /></td></tr>
 <tr class="separator:a46191614b006d7439a02a6f7852e7e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44553d598576b90c052d2699a5a9f60f"><td class="memItemLeft" align="right" valign="top"><a id="a44553d598576b90c052d2699a5a9f60f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a44553d598576b90c052d2699a5a9f60f">subtractSaros</a> ()</td></tr>
-<tr class="memdesc:a44553d598576b90c052d2699a5a9f60f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one saros (223 synodic months) to the simulation time. <br /></td></tr>
+<tr class="memdesc:a44553d598576b90c052d2699a5a9f60f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one saros (223 synodic months) from the simulation time. <br /></td></tr>
 <tr class="separator:a44553d598576b90c052d2699a5a9f60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c97714f5701b1d5a692c890d01f482"><td class="memItemLeft" align="right" valign="top"><a id="a39c97714f5701b1d5a692c890d01f482"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a39c97714f5701b1d5a692c890d01f482">subtractDraconicYear</a> ()</td></tr>
-<tr class="memdesc:a39c97714f5701b1d5a692c890d01f482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one draconic year to the simulation time. <br /></td></tr>
+<tr class="memdesc:a39c97714f5701b1d5a692c890d01f482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one draconic year from the simulation time. <br /></td></tr>
 <tr class="separator:a39c97714f5701b1d5a692c890d01f482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55999b54a6d94db981ff0b65a541c784"><td class="memItemLeft" align="right" valign="top"><a id="a55999b54a6d94db981ff0b65a541c784"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a55999b54a6d94db981ff0b65a541c784">subtractDraconicMonth</a> ()</td></tr>
-<tr class="memdesc:a55999b54a6d94db981ff0b65a541c784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one draconic month to the simulation time. <br /></td></tr>
+<tr class="memdesc:a55999b54a6d94db981ff0b65a541c784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one draconic month from the simulation time. <br /></td></tr>
 <tr class="separator:a55999b54a6d94db981ff0b65a541c784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea0c66dd466599f42bf7a70057d0d7e6"><td class="memItemLeft" align="right" valign="top"><a id="aea0c66dd466599f42bf7a70057d0d7e6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#aea0c66dd466599f42bf7a70057d0d7e6">subtractAnomalisticMonth</a> ()</td></tr>
-<tr class="memdesc:aea0c66dd466599f42bf7a70057d0d7e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one anomalistic month to the simulation time. <br /></td></tr>
+<tr class="memdesc:aea0c66dd466599f42bf7a70057d0d7e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one anomalistic month from the simulation time. <br /></td></tr>
 <tr class="separator:aea0c66dd466599f42bf7a70057d0d7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b52f691c57477709ac5ee385ef9410f"><td class="memItemLeft" align="right" valign="top"><a id="a6b52f691c57477709ac5ee385ef9410f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a6b52f691c57477709ac5ee385ef9410f">subtractAnomalisticYear</a> ()</td></tr>
-<tr class="memdesc:a6b52f691c57477709ac5ee385ef9410f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one anomalistic year to the simulation time. <br /></td></tr>
+<tr class="memdesc:a6b52f691c57477709ac5ee385ef9410f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one anomalistic year from the simulation time. <br /></td></tr>
 <tr class="separator:a6b52f691c57477709ac5ee385ef9410f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad959f0c47fa9c06f678cdea5d5b1b91d"><td class="memItemLeft" align="right" valign="top"><a id="ad959f0c47fa9c06f678cdea5d5b1b91d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ad959f0c47fa9c06f678cdea5d5b1b91d">subtractAnomalisticYears</a> (double n=100.)</td></tr>
-<tr class="memdesc:ad959f0c47fa9c06f678cdea5d5b1b91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract n anomalistic years to the simulation time. <br /></td></tr>
+<tr class="memdesc:ad959f0c47fa9c06f678cdea5d5b1b91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract n anomalistic years from the simulation time. <br /></td></tr>
 <tr class="separator:ad959f0c47fa9c06f678cdea5d5b1b91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8be7514f28ec6f85d3f69281c5bc7ef"><td class="memItemLeft" align="right" valign="top"><a id="ab8be7514f28ec6f85d3f69281c5bc7ef"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ab8be7514f28ec6f85d3f69281c5bc7ef">subtractMeanTropicalMonth</a> ()</td></tr>
-<tr class="memdesc:ab8be7514f28ec6f85d3f69281c5bc7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one mean tropical month to the simulation time. <br /></td></tr>
+<tr class="memdesc:ab8be7514f28ec6f85d3f69281c5bc7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one mean tropical month from the simulation time. <br /></td></tr>
 <tr class="separator:ab8be7514f28ec6f85d3f69281c5bc7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75df7a3943a0b63fbcb436b7bf837992"><td class="memItemLeft" align="right" valign="top"><a id="a75df7a3943a0b63fbcb436b7bf837992"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a75df7a3943a0b63fbcb436b7bf837992">subtractMeanTropicalYear</a> ()</td></tr>
-<tr class="memdesc:a75df7a3943a0b63fbcb436b7bf837992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one mean tropical year to the simulation time. <br /></td></tr>
+<tr class="memdesc:a75df7a3943a0b63fbcb436b7bf837992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one mean tropical year from the simulation time. <br /></td></tr>
 <tr class="separator:a75df7a3943a0b63fbcb436b7bf837992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a138323462ccd93bcebddb9b5e01c0330"><td class="memItemLeft" align="right" valign="top"><a id="a138323462ccd93bcebddb9b5e01c0330"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a138323462ccd93bcebddb9b5e01c0330">subtractMeanTropicalYears</a> (double n=100.)</td></tr>
-<tr class="memdesc:a138323462ccd93bcebddb9b5e01c0330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract n mean tropical years to the simulation time. <br /></td></tr>
+<tr class="memdesc:a138323462ccd93bcebddb9b5e01c0330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract n mean tropical years from the simulation time. <br /></td></tr>
 <tr class="separator:a138323462ccd93bcebddb9b5e01c0330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4287715a71ab0f7fba4f7d5922cc2f41"><td class="memItemLeft" align="right" valign="top"><a id="a4287715a71ab0f7fba4f7d5922cc2f41"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a4287715a71ab0f7fba4f7d5922cc2f41">subtractTropicalYear</a> ()</td></tr>
-<tr class="memdesc:a4287715a71ab0f7fba4f7d5922cc2f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one tropical year to the simulation time. <br /></td></tr>
+<tr class="memdesc:a4287715a71ab0f7fba4f7d5922cc2f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one tropical year from the simulation time. <br /></td></tr>
 <tr class="separator:a4287715a71ab0f7fba4f7d5922cc2f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae13eb1dbfc46948eff9092fb9b955a00"><td class="memItemLeft" align="right" valign="top"><a id="ae13eb1dbfc46948eff9092fb9b955a00"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ae13eb1dbfc46948eff9092fb9b955a00">subtractCalendricMonth</a> ()</td></tr>
-<tr class="memdesc:ae13eb1dbfc46948eff9092fb9b955a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one calendric month to the simulation time. <br /></td></tr>
-<tr class="separator:ae13eb1dbfc46948eff9092fb9b955a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3ca64b64a75b948eed6f22baf0692b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a6f3ca64b64a75b948eed6f22baf0692b">subtractGreatYear</a> ()</td></tr>
+<tr class="memdesc:a6f3ca64b64a75b948eed6f22baf0692b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one great year Great Year [NASA SP-7, 1965] - the period of one complete cycle of the equinoxes around the ecliptic, about 25,800 years.  <a href="classStelCore.html#a6f3ca64b64a75b948eed6f22baf0692b">More...</a><br /></td></tr>
+<tr class="separator:a6f3ca64b64a75b948eed6f22baf0692b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02be5f3211c96b0c9b67d428ca838d4b"><td class="memItemLeft" align="right" valign="top"><a id="a02be5f3211c96b0c9b67d428ca838d4b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a02be5f3211c96b0c9b67d428ca838d4b">subtractCalendarMonth</a> ()</td></tr>
+<tr class="memdesc:a02be5f3211c96b0c9b67d428ca838d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one calendar month from the simulation time. <br /></td></tr>
+<tr class="separator:a02be5f3211c96b0c9b67d428ca838d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad369495e6be446fb511467527c586f68"><td class="memItemLeft" align="right" valign="top"><a id="ad369495e6be446fb511467527c586f68"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ad369495e6be446fb511467527c586f68">subtractCalendarYear</a> ()</td></tr>
+<tr class="memdesc:ad369495e6be446fb511467527c586f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one calendar year from the simulation time. <br /></td></tr>
+<tr class="separator:ad369495e6be446fb511467527c586f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad652db378fecc1cf28dc11288b389a8a"><td class="memItemLeft" align="right" valign="top"><a id="ad652db378fecc1cf28dc11288b389a8a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ad652db378fecc1cf28dc11288b389a8a">subtractCalendarDecade</a> ()</td></tr>
+<tr class="memdesc:ad652db378fecc1cf28dc11288b389a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one calendar decade from the simulation time. <br /></td></tr>
+<tr class="separator:ad652db378fecc1cf28dc11288b389a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a783e23d89dc6db9822f69610b42710"><td class="memItemLeft" align="right" valign="top"><a id="a1a783e23d89dc6db9822f69610b42710"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a1a783e23d89dc6db9822f69610b42710">subtractCalendarCentury</a> ()</td></tr>
+<tr class="memdesc:a1a783e23d89dc6db9822f69610b42710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one calendar century from the simulation time. <br /></td></tr>
+<tr class="separator:a1a783e23d89dc6db9822f69610b42710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bdad1147ffec4622fe51aac812c2002"><td class="memItemLeft" align="right" valign="top"><a id="a8bdad1147ffec4622fe51aac812c2002"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a8bdad1147ffec4622fe51aac812c2002">subtractJulianYear</a> ()</td></tr>
-<tr class="memdesc:a8bdad1147ffec4622fe51aac812c2002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one Julian year to the simulation time. <br /></td></tr>
+<tr class="memdesc:a8bdad1147ffec4622fe51aac812c2002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one Julian year from the simulation time. <br /></td></tr>
 <tr class="separator:a8bdad1147ffec4622fe51aac812c2002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade1c2817925dda2907c7a2e05adc1c2b"><td class="memItemLeft" align="right" valign="top"><a id="ade1c2817925dda2907c7a2e05adc1c2b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ade1c2817925dda2907c7a2e05adc1c2b">subtractJulianYears</a> (double n=100.)</td></tr>
-<tr class="memdesc:ade1c2817925dda2907c7a2e05adc1c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract n Julian years to the simulation time. <br /></td></tr>
+<tr class="memdesc:ade1c2817925dda2907c7a2e05adc1c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract n Julian years from the simulation time. <br /></td></tr>
 <tr class="separator:ade1c2817925dda2907c7a2e05adc1c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5363a3a3d08101639c9dfd1a7b616b31"><td class="memItemLeft" align="right" valign="top"><a id="a5363a3a3d08101639c9dfd1a7b616b31"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a5363a3a3d08101639c9dfd1a7b616b31">subtractGaussianYear</a> ()</td></tr>
-<tr class="memdesc:a5363a3a3d08101639c9dfd1a7b616b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one Gaussian year to the simulation time. <br /></td></tr>
+<tr class="memdesc:a5363a3a3d08101639c9dfd1a7b616b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract one Gaussian year from the simulation time. <br /></td></tr>
 <tr class="separator:a5363a3a3d08101639c9dfd1a7b616b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9d159c293e003adc161435fc11af20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a0a9d159c293e003adc161435fc11af20">addSolarDays</a> (double d)</td></tr>
 <tr class="memdesc:a0a9d159c293e003adc161435fc11af20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a number of Earth Solar days to the current simulation time.  <a href="classStelCore.html#a0a9d159c293e003adc161435fc11af20">More...</a><br /></td></tr>
@@ -694,6 +724,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a269a74b9e25135cf0617ccca11c08a5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a269a74b9e25135cf0617ccca11c08a5d">setDe441Active</a> (bool status)</td></tr>
 <tr class="memdesc:a269a74b9e25135cf0617ccca11c08a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">switch DE441 use to  <a href="classStelCore.html#a269a74b9e25135cf0617ccca11c08a5d">More...</a><br /></td></tr>
 <tr class="separator:a269a74b9e25135cf0617ccca11c08a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6e7ceb8ce41cd07196f65f1fe4a065"><td class="memItemLeft" align="right" valign="top"><a id="a9d6e7ceb8ce41cd07196f65f1fe4a065"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a9d6e7ceb8ce41cd07196f65f1fe4a065">setMinMaxEphemRange</a> (QPair&lt; int, int &gt; mm)</td></tr>
+<tr class="memdesc:a9d6e7ceb8ce41cd07196f65f1fe4a065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set min and max range of dates for ephemeris. <br /></td></tr>
+<tr class="separator:a9d6e7ceb8ce41cd07196f65f1fe4a065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cbdd685bb59cda3eb2de1d652c4eaa"><td class="memItemLeft" align="right" valign="top"><a id="ab1cbdd685bb59cda3eb2de1d652c4eaa"></a>
+QPair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#ab1cbdd685bb59cda3eb2de1d652c4eaa">getMinMaxEphemRange</a> (void)</td></tr>
+<tr class="memdesc:ab1cbdd685bb59cda3eb2de1d652c4eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get min and max range of dates for ephemeris. <br /></td></tr>
+<tr class="separator:ab1cbdd685bb59cda3eb2de1d652c4eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a279244669c8cb6353a223838c14b4756"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a279244669c8cb6353a223838c14b4756">getIAUConstellation</a> (const <a class="el" href="classVector3.html">Vec3d</a> &amp;positionEqJnow) const</td></tr>
 <tr class="memdesc:a279244669c8cb6353a223838c14b4756"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 3-letter abbreviation of IAU constellation name for position in equatorial coordinates on the current epoch.  <a href="classStelCore.html#a279244669c8cb6353a223838c14b4756">More...</a><br /></td></tr>
 <tr class="separator:a279244669c8cb6353a223838c14b4756"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -827,6 +865,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>updateSearchLists</b>
 <tr class="memitem:a285a2f88c7acbdbacaff7240c3925391"><td class="memItemLeft" align="right" valign="top"><a id="a285a2f88c7acbdbacaff7240c3925391"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ditheringModeChanged</b> (DitheringMode mode)</td></tr>
 <tr class="separator:a285a2f88c7acbdbacaff7240c3925391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b050abb624144077fb1609bda396196"><td class="memItemLeft" align="right" valign="top"><a id="a4b050abb624144077fb1609bda396196"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a4b050abb624144077fb1609bda396196">ephemAlgorithmChanged</a> ()</td></tr>
+<tr class="memdesc:a4b050abb624144077fb1609bda396196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called just after algorithm/theory for ephemeris is changed in the GUI. <br /></td></tr>
+<tr class="separator:a4b050abb624144077fb1609bda396196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -914,9 +956,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a63b9c829c7ab0af04c794d295962a8e6">lookAtJ2000</a> (const <a class="el" href="classVector3.html">Vec3d</a> &amp;pos, const <a class="el" href="classVector3.html">Vec3d</a> &amp;up)</td></tr>
 <tr class="memdesc:a63b9c829c7ab0af04c794d295962a8e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vision direction. <br /></td></tr>
 <tr class="separator:a63b9c829c7ab0af04c794d295962a8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e39b185be4c37a4a2bf508f4f542202"><td class="memItemLeft" align="right" valign="top"><a id="a8e39b185be4c37a4a2bf508f4f542202"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMatAltAzModelView</b> (const <a class="el" href="classMatrix4.html">Mat4d</a> &amp;mat)</td></tr>
-<tr class="separator:a8e39b185be4c37a4a2bf508f4f542202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67608b6d215d471f0088b5f86eb91ee7"><td class="memItemLeft" align="right" valign="top"><a id="a67608b6d215d471f0088b5f86eb91ee7"></a>
 <a class="el" href="classVector3.html">Vec3d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>altAzToEquinoxEqu</b> (const <a class="el" href="classVector3.html">Vec3d</a> &amp;v, <a class="el" href="classStelCore.html#afddf8e4cf0bbdf1f1ed366152f5488ab">RefractionMode</a> refMode=<a class="el" href="classStelCore.html#afddf8e4cf0bbdf1f1ed366152f5488aba93e2d6d3cf22de840dc23c9b7a6a327c">RefractionAuto</a>) const</td></tr>
 <tr class="separator:a67608b6d215d471f0088b5f86eb91ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1013,9 +1052,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>j2000ToAltAzInPlaceNo
 const <a class="el" href="classStelLocation.html">StelLocation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a298de377bfbc0ddee9a984ae2ae1640d">getCurrentLocation</a> () const</td></tr>
 <tr class="memdesc:a298de377bfbc0ddee9a984ae2ae1640d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the information on the current location. <br /></td></tr>
 <tr class="separator:a298de377bfbc0ddee9a984ae2ae1640d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a972a2075b210d6958e1137214eba5cc9"><td class="memItemLeft" align="right" valign="top"><a id="a972a2075b210d6958e1137214eba5cc9"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a972a2075b210d6958e1137214eba5cc9">getUTCOffset</a> (const double JD) const</td></tr>
-<tr class="memdesc:a972a2075b210d6958e1137214eba5cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the UTC offset on the current location (in hours) <br /></td></tr>
+<tr class="memitem:a972a2075b210d6958e1137214eba5cc9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStelCore.html#a972a2075b210d6958e1137214eba5cc9">getUTCOffset</a> (const double JD) const</td></tr>
+<tr class="memdesc:a972a2075b210d6958e1137214eba5cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the UTC offset on the current location (in hours) N.B.  <a href="classStelCore.html#a972a2075b210d6958e1137214eba5cc9">More...</a><br /></td></tr>
 <tr class="separator:a972a2075b210d6958e1137214eba5cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21aefa5a93f376cc1458c67969198301"><td class="memItemLeft" align="right" valign="top"><a id="a21aefa5a93f376cc1458c67969198301"></a>
 QString&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentTimeZone</b> () const</td></tr>
@@ -1270,7 +1308,7 @@ DitheringMode&#160;</td><td class="memItemRight" valign="bottom"><b>ditheringMod
 
 <p>Supported reference frame types. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af18f0c34c957103a7fa3008e2aa4aec1a6caf91e764d43b6a218e66507f7b4323"></a>FrameUninitialized&#160;</td><td class="fielddoc"><p>Reference frame is not set (FMajerech: Added to avoid condition on uninitialized value in <a class="el" href="classStelSkyLayerMgr.html#af5136c664c48cd36643e5a53a3e79edf" title="Draws sky background.">StelSkyLayerMgr::draw()</a>) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af18f0c34c957103a7fa3008e2aa4aec1a6caf91e764d43b6a218e66507f7b4323"></a>FrameUninitialized&#160;</td><td class="fielddoc"><p>Reference frame is not set (FMajerech: Added to avoid condition on uninitialized value in <a class="el" href="classStelSkyLayerMgr.html#a23c3bf7fadbed578b7d3d52ff7c51a84" title="Draws sky background.">StelSkyLayerMgr::draw()</a>) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="af18f0c34c957103a7fa3008e2aa4aec1aafae2ea8dbf9f73c83b646ba5d57801c"></a>FrameAltAz&#160;</td><td class="fielddoc"><p>Altazimuthal reference frame centered on observer: +x=south, +y=east, +z=zenith. </p>
 </td></tr>
@@ -1386,6 +1424,34 @@ DitheringMode&#160;</td><td class="memItemRight" valign="bottom"><b>ditheringMod
 
 <p>Add one Gaussian year to the simulation time. </p>
 <p>The Gaussian Year is 365.2568983 days, and is C.F.Gauss's value for the Sidereal Year. Note that 1 GaussY=2 &pi;/k where k is the Gaussian gravitational constant. A massless body orbits one solar mass in 1AU distance in a Gaussian Year. </p>
+
+</div>
+</div>
+<a id="a5b5f8ff8c1dceaab74e4c1ed0d2399c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5f8ff8c1dceaab74e4c1ed0d2399c4">&#9670;&nbsp;</a></span>addGreatYear</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StelCore::addGreatYear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add one great year Great Year [NASA SP-7, 1965] - the period of one complete cycle of the equinoxes around the ecliptic, about 25,800 years. </p>
+<p><a href="https://web.archive.org/web/20050421192849/http://www.hq.nasa.gov/office/hqlibrary/aerospacedictionary/aerodictall/g.html">https://web.archive.org/web/20050421192849/http://www.hq.nasa.gov/office/hqlibrary/aerospacedictionary/aerodictall/g.html</a> </p>
 
 </div>
 </div>
@@ -2136,6 +2202,27 @@ Up to V0.15.1, if the requested year was outside validity range, we returned zer
 
 </div>
 </div>
+<a id="a972a2075b210d6958e1137214eba5cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972a2075b210d6958e1137214eba5cc9">&#9670;&nbsp;</a></span>getUTCOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double StelCore::getUTCOffset </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>JD</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the UTC offset on the current location (in hours) N.B. </p>
+<p>This is a rather costly operation. Re-use where possible! </p>
+
+</div>
+</div>
 <a id="ad076313c7a859b599370ba0744ff12c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad076313c7a859b599370ba0744ff12c2">&#9670;&nbsp;</a></span>isBrightDaylight()</h2>
 
@@ -2760,6 +2847,34 @@ Up to V0.15.1, if the requested year was outside validity range, we returned zer
 
 </div>
 </div>
+<a id="a6f3ca64b64a75b948eed6f22baf0692b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3ca64b64a75b948eed6f22baf0692b">&#9670;&nbsp;</a></span>subtractGreatYear</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StelCore::subtractGreatYear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Subtract one great year Great Year [NASA SP-7, 1965] - the period of one complete cycle of the equinoxes around the ecliptic, about 25,800 years. </p>
+<p><a href="https://web.archive.org/web/20050421192849/http://www.hq.nasa.gov/office/hqlibrary/aerospacedictionary/aerodictall/g.html">https://web.archive.org/web/20050421192849/http://www.hq.nasa.gov/office/hqlibrary/aerospacedictionary/aerodictall/g.html</a> </p>
+
+</div>
+</div>
 <a id="aa76f1faccc6689368898bf3f9fff6110"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa76f1faccc6689368898bf3f9fff6110">&#9670;&nbsp;</a></span>subtractSiderealDay</h2>
 
@@ -2970,7 +3085,7 @@ Up to V0.15.1, if the requested year was outside validity range, we returned zer
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 25 2023 12:58:55 for Stellarium by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 22 2024 21:34:55 for Stellarium by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

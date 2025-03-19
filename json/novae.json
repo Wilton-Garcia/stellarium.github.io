@@ -26,7 +26,7 @@
 			"minMagnitude": 16.5,
 			"peakJD": 2414360,
 			"RA": "19h01m50.6s",
-			"Dec": "13d09m42s"
+			"Dec": "-13d09m42s"
 		},
 		"V0606 Aql":
 		{
@@ -707,6 +707,26 @@
 			"peakJD": 2459378.35625, 
 			"RA": "18h57m30.98s",
 			"Dec": "16d53m39.6s"
+		},
+		"V1716 Sco":
+		{
+			"name": "Nova Scorpii 2023",
+			"type": "NA",
+			"maxMagnitude": 6.777,
+			"minMagnitude": 20.0,
+			"peakJD": 2460056.625, 
+			"RA": "17h22m45.05s",
+			"Dec": "-41d37m16.3s"
+		},
+		"V1723 Sco":
+		{
+			"name": "Nova Scorpii 2024",
+			"type": "NA",
+			"maxMagnitude": 6.773,
+			"minMagnitude": 20.6,
+			"peakJD": 2460351.29054, 
+			"RA": "17h26m18.13s",
+			"Dec": "-38d09m35.4s"
 		}
 	}
 }

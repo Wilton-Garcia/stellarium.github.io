@@ -79,10 +79,6 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="n
 QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#a928a189b094bc234f29134b956b343eb">getOperatingSystemInfo</a> ()</td></tr>
 <tr class="memdesc:a928a189b094bc234f29134b956b343eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name and the version of operating system, i.e. "macOS 12.5". <br /></td></tr>
 <tr class="separator:a928a189b094bc234f29134b956b343eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5e9cc0ed1c5fd8c7d4d18e510b49ddf"><td class="memItemLeft" align="right" valign="top"><a id="ad5e9cc0ed1c5fd8c7d4d18e510b49ddf"></a>
-QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#ad5e9cc0ed1c5fd8c7d4d18e510b49ddf">getCompilerInfo</a> ()</td></tr>
-<tr class="memdesc:ad5e9cc0ed1c5fd8c7d4d18e510b49ddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name and the version of compiler, which was used for building the planetarium, i.e. "GCC 9.3.0". <br /></td></tr>
-<tr class="separator:ad5e9cc0ed1c5fd8c7d4d18e510b49ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac230bbb48b5cea79ccc78b0594b5af9b"><td class="memItemLeft" align="right" valign="top"><a id="ac230bbb48b5cea79ccc78b0594b5af9b"></a>
 QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#ac230bbb48b5cea79ccc78b0594b5af9b">getUserAgentString</a> ()</td></tr>
 <tr class="memdesc:ac230bbb48b5cea79ccc78b0594b5af9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the user agent name, i.e. "Stellarium/0.15.0 (Linux)". <br /></td></tr>
@@ -322,6 +318,10 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="n
 <tr class="memitem:acf046df0effd9118b89a98ae208e4e2c"><td class="memItemLeft" align="right" valign="top"><a id="acf046df0effd9118b89a98ae208e4e2c"></a>
 QString&#160;</td><td class="memItemRight" valign="bottom"><b>hoursToHmsStr</b> (const float hours, const bool lowprecision=false)</td></tr>
 <tr class="separator:acf046df0effd9118b89a98ae208e4e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518d5788c826d931736e5d089d21fd5e"><td class="memItemLeft" align="right" valign="top"><a id="a518d5788c826d931736e5d089d21fd5e"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#a518d5788c826d931736e5d089d21fd5e">getHoursMinutesFromJulianDay</a> (const double julianDay)</td></tr>
+<tr class="memdesc:a518d5788c826d931736e5d089d21fd5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JD to hours and minutes. <br /></td></tr>
+<tr class="separator:a518d5788c826d931736e5d089d21fd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a578e930df92040f18b0f2dfbd57df78c"><td class="memItemLeft" align="right" valign="top"><a id="a578e930df92040f18b0f2dfbd57df78c"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#a578e930df92040f18b0f2dfbd57df78c">hmsStrToHours</a> (const QString &amp;s)</td></tr>
 <tr class="memdesc:a578e930df92040f18b0f2dfbd57df78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a hms formatted string to decimal hours. <br /></td></tr>
@@ -330,6 +330,10 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="na
 QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#a2599f5c91bb8a2006f192434b9800bd1">daysFloatToDHMS</a> (float days)</td></tr>
 <tr class="memdesc:a2599f5c91bb8a2006f192434b9800bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert days (float) to a time string. <br /></td></tr>
 <tr class="separator:a2599f5c91bb8a2006f192434b9800bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b966ae112a1659dd9554026c2d4b5a2"><td class="memItemLeft" align="right" valign="top"><a id="a6b966ae112a1659dd9554026c2d4b5a2"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#a6b966ae112a1659dd9554026c2d4b5a2">wrapText</a> (const QString &amp;s, const int limit=52)</td></tr>
+<tr class="memdesc:a6b966ae112a1659dd9554026c2d4b5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method to splitting the text by substrings by some limit of string length. <br /></td></tr>
+<tr class="separator:a6b966ae112a1659dd9554026c2d4b5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e6b8ae811df904a448cf7efae67b669"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceStelUtils.html#a8e6b8ae811df904a448cf7efae67b669">getDeltaTwithoutCorrection</a> (const double jDay)</td></tr>
 <tr class="memdesc:a8e6b8ae811df904a448cf7efae67b669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Delta-T estimation for a given date.  <a href="namespaceStelUtils.html#a8e6b8ae811df904a448cf7efae67b669">More...</a><br /></td></tr>
 <tr class="separator:a8e6b8ae811df904a448cf7efae67b669"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3967,7 +3971,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 25 2023 12:58:55 for Stellarium by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 22 2024 21:34:55 for Stellarium by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
